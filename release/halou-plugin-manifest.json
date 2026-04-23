@@ -7,7 +7,7 @@
       "Title": "ZK 展开",
       "Description": "加载并执行 ZK AutoLISP 主入口。",
       "Kind": "lisp",
-      "LoadPath": "../../ZK/ZK_沐新用展开V1.4.lsp",
+      "LoadPath": "ZK/ZK_沐新用展开V1.4.lsp",
       "Command": "ZK14",
       "Enabled": true
     },
