@@ -24,7 +24,7 @@
       "Title": "OLE 批量导入图片",
       "Description": "扫描当前图纸目录的图片文件，逐张以 OLE 方式插入当前 CAD 图纸；单张最大 2500×2500mm，横向间距 150mm。",
       "Kind": "lisp",
-      "LoadPath": "../../OLE/oleimgdir.lsp",
+      "LoadPath": "OLE/oleimgdir.lsp",
       "Command": "OLE",
       "Enabled": true
     }
