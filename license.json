@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
-  "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'）= 只允许这些功能。",
-  "latest_version": "1.1.0",
+  "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
+  "latest_version": "1.1.1",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "v1.1.0: OLE 图片拖拽自动排版；UI 快捷键列表错位修复；命令别名注册 LISP 兜底；嵌入资源跟随升级",
+  "release_notes": "v1.1.1: ZK 展开精度1位小数，修复7.9999误触抛槽；line2 以黄线端为第一个；功能白名单未授权项在面板隐藏",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
@@ -19,8 +19,9 @@
     },
     "Demo": {
       "allowed": true,
-      "features": ["*"],
-      "note": "已授权）"
+      "features": ["ole"],
+      "note": "Demo 账号：仅 OLE 批量导入图片"
     }
   }
 }
+
