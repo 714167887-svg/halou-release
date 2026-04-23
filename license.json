@@ -19,8 +19,8 @@
     },
     "Demo": {
       "allowed": true,
-      "features": ["zk"],
-      "note": "Demo 账号（仅 ZK 展开）"
+      "features": ["*"],
+      "note": "已授权）"
     }
   }
 }
