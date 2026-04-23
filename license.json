@@ -1,48 +1,42 @@
 ﻿{
-  "_说明": "========== Halou 插件授权与版本控制 ==========",
-  "_使用方法": "改完这个文件，双击 W/发布CAD Halou新版本.bat 就能推送。买家下次开 CAD 或点「登录/验证」时生效（CDN 缓存约 5 分钟）。",
+  "使用说明": [
+    "========== Halou 插件授权与版本控制 ==========",
+    "改完此文件双击 W/发布CAD Halou新版本.bat 即可推送。",
+    "买家下次开 CAD 或点「登录/验证」时生效（约 5 分钟内）。",
+    "",
+    "【版本发布】",
+    "  latest_version  — 最新版本号，买家版本低会提示升级",
+    "  download_url    — 新版 DLL 下载地址",
+    "  release_notes   — 更新说明（显示在买家设置页）",
+    "",
+    "【全局开关】",
+    "  default_allowed — 陌生账号默认是否放行（建议 false）",
+    "  kill_switch     — true=全站紧急停服，无视 accounts",
+    "  kill_reason     — 停服原因，会显示给买家",
+    "",
+    "【账号白名单】accounts 下每个买家一条：",
+    "  allowed     — true 放行 / false 禁用",
+    "  note        — 备注（内部看，买家看不到）",
+    "  reason      — 禁用原因（买家会看到）",
+    "  expires_at  — 到期日期（仅展示，不会自动禁用）"
+  ],
 
-
-  "_1_版本控制": "↓↓↓ 以下是「版本发布」相关字段 ↓↓↓",
-
-  "_字段_latest_version": "最新版本号。插件对比买家本地的版本，如果本地较低会提示「有新版本可用」。",
   "latest_version": "1.0.0",
-
-  "_字段_download_url": "新版本 DLL 的直接下载地址。买家点「下载新版本」时从这里下载。",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
+  "release_notes": "license.json 清爽重排",
 
-  "_字段_release_notes": "本次更新说明。会显示在买家的【设置】页。",
-  "release_notes": "license.json 中文化注释，方便运营修改",
-
-
-  "_2_全局开关": "↓↓↓ 以下是「全局紧急控制」字段 ↓↓↓",
-
-  "_字段_default_allowed": "不在 accounts 名单里的账号，是否默认放行。建议 false（防白嫖）。",
   "default_allowed": false,
-
-  "_字段_kill_switch": "一键全站停服。true = 所有买家立刻禁用，无视 accounts 里的 allowed。紧急用。",
   "kill_switch": false,
-
-  "_字段_kill_reason": "kill_switch=true 时显示给所有买家的原因。",
   "kill_reason": "",
 
-
-  "_3_账号管理": "↓↓↓ 以下是「买家账号白名单」，每个买家一条 ↓↓↓",
-  "_账号字段说明": "allowed=true 放行；allowed=false 禁用。note=备注（内部看，买家看不到）。reason=禁用原因（买家会看到）。expires_at=到期时间（仅展示，不会自动禁用）。",
-
   "accounts": {
-
     "demo": {
-      "_说明": "演示账号，一直开放，用来测试",
       "allowed": true,
       "note": "演示账号"
     },
-
     "example-customer": {
-      "_说明": "演示禁用效果的样例账号",
       "allowed": false,
       "reason": "授权已到期，请联系作者续费"
     }
-
   }
 }
