@@ -1,0 +1,23 @@
+{
+  "Version": "2026-04-23",
+  "UpdatedAt": "2026-04-23T12:00:00",
+  "Features": [
+    {
+      "Id": "zk",
+      "Title": "ZK 展开",
+      "Description": "加载并执行 ZK AutoLISP 主入口。",
+      "Kind": "lisp",
+      "LoadPath": "../../ZK/ZK_沐新用展开V1.4.lsp",
+      "Command": "ZK14",
+      "Enabled": true
+    },
+    {
+      "Id": "kb",
+      "Title": "KB 功能",
+      "Description": "KB 的 LSP 尚未补上，先保留占位入口。",
+      "Kind": "placeholder",
+      "Message": "KB 的 LSP 还没接入。补上后只改这个清单即可。",
+      "Enabled": true
+    }
+  ]
+}
