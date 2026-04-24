@@ -1,14 +1,14 @@
 {
-  "Version": "2026-04-23",
-  "UpdatedAt": "2026-04-23T12:00:00",
+  "Version": "2026-04-24",
+  "UpdatedAt": "2026-04-24T12:00:00",
   "Features": [
     {
       "Id": "zk",
-      "Title": "ZK 展开",
-      "Description": "加载并执行 ZK AutoLISP 主入口。",
+      "Title": "ZKK 展开",
+      "Description": "加载并执行 ZKK AutoLISP 主入口。",
       "Kind": "lisp",
-      "LoadPath": "ZK/ZK_沐新用展开V1.4.lsp",
-      "Command": "ZK14",
+      "LoadPath": "ZK/ZKK_Unfold_V13.lsp",
+      "Command": "ZKK",
       "Enabled": true
     },
     {
