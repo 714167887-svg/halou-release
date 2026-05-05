@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "1.1.7",
+  "latest_version": "1.1.8",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "v1.1.7: 修复 ZKK 展开 LSP 加载失败（UTF-8 BOM 编码）；新增每个功能右侧「自动加载」开关，开启后新建/打开图纸时自动加载 LSP，无需每次点面板。",
+  "release_notes": "v1.1.8: 新增「开板耗材计算」(命令 KB)：自动展开钣金截面 + 计算 1219mm 原料可开支数，截面下方红色 MTEXT 标注；「ZKK 展开」更名「展开功能」；命令别名（如把 ZKK 改成 ZK）现在会自动加载对应 LSP，不再报功能未加载。",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
