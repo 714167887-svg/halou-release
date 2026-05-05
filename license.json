@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "1.1.15",
+  "latest_version": "1.1.16",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "v1.1.15：JT 方框截图放宽选择范围，任意可取包围盒的实体（多段线/矩形/块引用/圆等）都可作为方框。",
+  "release_notes": "v1.1.16：JT 改用 PNGOUT 命令 + FILEDIA=0 脚本化导出，修复「框内内容未进 PNG」/「视角不自适应」问题。",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
