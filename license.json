@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "1.1.10",
+  "latest_version": "1.1.11",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "v1.1.10：「开板耗材计算 KB」严格判定闭合，未闭合多段线自动跳过（与展开功能逻辑一致）；选择过滤同时支持 LWPOLYLINE 与 POLYLINE。",
+  "release_notes": "v1.1.11：「开板耗材计算 KB」取消周长降级，无法提取外壁的截面一律报错跳过（与展开功能严格度对齐）。",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
