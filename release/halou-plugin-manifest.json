@@ -1,6 +1,6 @@
 {
-  "Version": "2026-04-26",
-  "UpdatedAt": "2026-04-26T12:00:00",
+  "Version": "2026-04-27",
+  "UpdatedAt": "2026-04-27T12:00:00",
   "Features": [
     {
       "Id": "zk",
@@ -14,10 +14,19 @@
     {
       "Id": "kb",
       "Title": "开板耗材计算",
-      "Description": "选闭合钣金截面多段线，按 ZKK 算法展开并计算 1219mm 原料可开支数，在截面下方红色标注。",
+      "Description": "选闭合钣金截面多段线，按 ZKK 算法展开并计算可开支数（默认 1210mm），在截面下方红色标注。",
       "Kind": "lisp",
       "LoadPath": "KB/KB_Yield.lsp",
       "Command": "KB",
+      "Enabled": true
+    },
+    {
+      "Id": "jt",
+      "Title": "方框截图",
+      "Description": "选一个方框，自动拷到剪贴板（同时包含图片+CAD实体）并导出 PNG 到 E:/halou wode/W/JT 目录。",
+      "Kind": "lisp",
+      "LoadPath": "JT/JT_Snapshot.lsp",
+      "Command": "JT",
       "Enabled": true
     },
     {
