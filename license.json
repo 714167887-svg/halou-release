@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "1.1.19",
+  "latest_version": "1.1.20",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "v1.1.19：JT 改为 ZOOM 到方框后出 PNG，块在图中放最大；PNG 固定为 JT.png，每次覆盖不累积。",
+  "release_notes": "v1.1.20：JT 改用 ZOOM Object + sssetfirst+_P 预选出图，加诊断输出（控制台可看到 ZOOM 前后 VIEWSIZE）。",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
