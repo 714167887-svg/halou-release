@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "1.1.29",
+  "latest_version": "1.1.30",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "v1.1.29：JT 取消拉伸放大（HighQualityBicubic 拉 2倍会模糊），改用 PNGOUT 原生像素直接写入剪贴板。想要更高清度：把 CAD 窗口最大化（绘图区像素越大 PNG 越清晰）。",
+  "release_notes": "v1.1.30：JT 修复致命 AV 崩溃（Access Violation Reading 0x0000）。原因：jt-png-to-clipboard 站以读取 CAD 私有 COM 格式（Embed Source / Object Descriptor / AcadEntity）会出 AV。现不再保留这些格式，剪贴板仅保留高清 PNG 位图。同机 CAD→CAD 粘实体请用 JTPASTE（PNG 已嵌入 DWG）。",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
