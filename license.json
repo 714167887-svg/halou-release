@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "1.1.36",
+  "latest_version": "1.1.37",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "v1.1.36：修复 1.1.34 引入的 PlotEngine eInvalidInput 报错。原因：SetPlotWindowArea 必须在 SetPlotType(Window) 之后调用，之前顺序错了。同时去掉 monochrome.ctb 引用（避免某些 CAD 缺该 ctb 文件也报错）。现在 JT 可成功生成 1600×1280 高清 PNG。",
+  "release_notes": "v1.1.37【稳定版】：PlotEngine 在中文 CAD 2021 调不通且会干扰后续 PNGOUT，暂时跳过。现在 JT 直接走 PNGOUT，画质与 v1.1.33 相同。想要更高清度：把 CAD 窗口拉到最大（双显拼一起更好）、关闭侧边工具面板，让绘图区像素最大化，这样 PNGOUT 出图自然会越清。",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
