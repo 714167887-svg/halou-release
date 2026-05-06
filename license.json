@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "1.1.32",
+  "latest_version": "1.1.33",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "v1.1.32：JT 多方框不再合成一张。改用 CF_HDROP 多文件格式写入剪贴板，微信/QQ 粘贴会分别发送多张独立 PNG（不拼接、不缩放、原生清晰度）。",
+  "release_notes": "v1.1.33【重要修复】：JT 之前版本会删除原图里的方框及其内部实体！原因：-WBLOCK 默认会从当前图删除选中的实体。本版在 -WBLOCK 后立即调 OOPS 恢复，原图实体完全保留。如之前看起来实体丢了，可试 U 撤销。",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
