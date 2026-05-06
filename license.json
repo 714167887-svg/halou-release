@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "1.1.26",
+  "latest_version": "1.1.27",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "v1.1.26：JT 裁白边后调用 jt-upscale-png 高质量双三次插值放大到 2400 像素长边，提高清晰度。",
+  "release_notes": "v1.1.27：JT 在 console 加明显像素提示 + 调用资源管理器自动定位 JT.png，方便右键查看真实尺寸。",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
