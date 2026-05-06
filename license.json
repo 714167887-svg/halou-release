@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "1.1.33",
+  "latest_version": "1.1.34",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "v1.1.33【重要修复】：JT 之前版本会删除原图里的方框及其内部实体！原因：-WBLOCK 默认会从当前图删除选中的实体。本版在 -WBLOCK 后立即调 OOPS 恢复，原图实体完全保留。如之前看起来实体丢了，可试 U 撤销。",
+  "release_notes": "v1.1.34：JT 画质升级。①改用 PlotEngine API 出图（矢量直接渲染到 1600×1280 画布，不受 CAD 窗口像素限制），比以前 PNGOUT 约清晰 1.5~2 倍。②不再嵌入 DWG 实体（彻底取消 -WBLOCK，零误删风险）。同机要 CAD→CAD 粘贴实体请用 CAD 原生 COPYCLIP+并发使用 JT。",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
