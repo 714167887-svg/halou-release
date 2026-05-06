@@ -1,9 +1,9 @@
 ﻿{
     "_comment":  "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
     "_features_help":  "accounts[*].features 为功能白名单：不写/含 \u0027*\u0027 = 全部功能；写具体 Id（如 \u0027zk\u0027、\u0027kb\u0027、\u0027ole\u0027）= 只允许这些功能，面板上未授权功能会隐藏。",
-    "latest_version":  "1.1.39",
+    "latest_version":  "1.1.40",
     "download_url":  "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-    "release_notes":  "v1.1.39: JT 优先走 CAD 打印引擎（PublishToWeb PNG.pc3）出图，自带白底纸张效果、矢量直接渲染。修复了之前中文 CAD 2021 报 eInvalidInput 的问题：不再硬编码英文纸张名 “Sun Hi-Res…”，而是自动列出当前 PC3 设备所有 canonical media name 并选像素最大的（跨语言通用）。打印引擎失败时回退到 PNGOUT + 临时白背景方案。",
+    "release_notes":  "v1.1.40: JT 仅走 CAD 打印引擎（PublishToWeb PNG.pc3）出图，自动探测当前设备最大像素纸张。失败不再回退 PNGOUT，直接在命令行报错给用户看，便于排查打印机配置/PC3 缺失等问题。",
     "default_allowed":  false,
     "kill_switch":  false,
     "kill_reason":  "",
