@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "1.1.31",
+  "latest_version": "1.1.32",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "v1.1.31：JT 升级：①支持一次选多个方框（选一个回车继续，全部选完再回车结束）；②多个方框各自出图后按统一高度横向拼接成一张大 PNG，中间 24px 白边；③不再自动弹资源管理器。Ctrl+V 到微信=得一张包含所有方框的合图。",
+  "release_notes": "v1.1.32：JT 多方框不再合成一张。改用 CF_HDROP 多文件格式写入剪贴板，微信/QQ 粘贴会分别发送多张独立 PNG（不拼接、不缩放、原生清晰度）。",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
