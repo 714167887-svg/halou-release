@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "1.1.21",
+  "latest_version": "1.1.22",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "v1.1.21：JT 优先走 -PLOT (PublishToWeb PNG.pc3 1600x1280 Window+Fit)，失败回退 PNGOUT。",
+  "release_notes": "v1.1.22：JT 新增 DWG-in-PNG：PNG 生成后会嵌入实体 base64 到 tEXt(JSQCAD) 块；后续将增 JTPASTE 还原。注意微信传请选"以文件发送"。",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
