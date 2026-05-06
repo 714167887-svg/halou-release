@@ -1,9 +1,9 @@
 ﻿{
     "_comment":  "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
     "_features_help":  "accounts[*].features 为功能白名单：不写/含 \u0027*\u0027 = 全部功能；写具体 Id（如 \u0027zk\u0027、\u0027kb\u0027、\u0027ole\u0027）= 只允许这些功能，面板上未授权功能会隐藏。",
-    "latest_version":  "1.1.40",
+    "latest_version":  "1.1.41",
     "download_url":  "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-    "release_notes":  "v1.1.40: JT 仅走 CAD 打印引擎（PublishToWeb PNG.pc3）出图，自动探测当前设备最大像素纸张。失败不再回退 PNGOUT，直接在命令行报错给用户看，便于排查打印机配置/PC3 缺失等问题。",
+    "release_notes":  "v1.1.41【紧急修复 v1.1.40 的 CAD 崩溃】重写 jt-plot-png：① 不再 LockDocument（LispFunction 已在文档命令上下文，再 lock 在某些 AutoCAD 版本会 AV）；② PlotEngine 调用挪到 transaction 外（嵌套 lock+tr+PlotEngine 是 AV 主因）；③ SetPlotConfigurationName 不传 null（中文版 2021 会 AV）；④ 加 [HandleProcessCorruptedStateExceptions] 标注，AV 也能被捕获。仍只走打印引擎不回退。",
     "default_allowed":  false,
     "kill_switch":  false,
     "kill_reason":  "",
