@@ -3,7 +3,7 @@
     "_features_help":  "accounts[*].features 为功能白名单：不写/含 \u0027*\u0027 = 全部功能；写具体 Id（如 \u0027zk\u0027、\u0027kb\u0027、\u0027ole\u0027）= 只允许这些功能，面板上未授权功能会隐藏。",
     "latest_version":  "1.1.38",
     "download_url":  "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-    "release_notes":  "v1.1.38：修复块内表格出图时残留 ABC 列字母 / 123 行号表头的问题（PNGOUT 截图前临时关闭 TABLEINDICATOR 并清掉夹点显示，截图后恢复）。",
+    "release_notes":  "v1.1.38: ① 修复 JT 出图时块内表格残留 ABC 列字母 / 123 行号表头（PNGOUT 前临时关 TABLEINDICATOR + 清夹点，截图后恢复）。② 优化日常画图卡顿：DocumentActivated 触发时不再每次递归枚举主窗口子树重挂图片拖拽接管（首次挂上后即跳过）。",
     "default_allowed":  false,
     "kill_switch":  false,
     "kill_reason":  "",
