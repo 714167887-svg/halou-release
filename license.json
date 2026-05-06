@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "1.1.25",
+  "latest_version": "1.1.26",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "v1.1.25：JT 裁白边 tol 调到 252 + diag 输出裁前裁后尺寸，方便定位剩余白边原因。",
+  "release_notes": "v1.1.26：JT 裁白边后调用 jt-upscale-png 高质量双三次插值放大到 2400 像素长边，提高清晰度。",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
