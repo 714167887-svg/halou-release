@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "1.1.34",
+  "latest_version": "1.1.35",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "v1.1.34：JT 画质升级。①改用 PlotEngine API 出图（矢量直接渲染到 1600×1280 画布，不受 CAD 窗口像素限制），比以前 PNGOUT 约清晰 1.5~2 倍。②不再嵌入 DWG 实体（彻底取消 -WBLOCK，零误删风险）。同机要 CAD→CAD 粘贴实体请用 CAD 原生 COPYCLIP+并发使用 JT。",
+  "release_notes": "v1.1.35：JT 选中反馈。选中的方框会高亮虚线+显示夹点，如果忘了选过哪些一眼就能看出。命令结束后自动清除高亮。",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
