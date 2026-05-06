@@ -1,9 +1,9 @@
-﻿﻿{
+﻿﻿﻿{
     "_comment":  "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
     "_features_help":  "accounts[*].features 为功能白名单：不写/含 \u0027*\u0027 = 全部功能；写具体 Id（如 \u0027zk\u0027、\u0027kb\u0027、\u0027ole\u0027）= 只允许这些功能，面板上未授权功能会隐藏。",
-    "latest_version":  "1.1.43",
+    "latest_version":  "1.1.44",
     "download_url":  "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-    "release_notes":  "v1.1.43: 列出全部 PC3 设备 + 自动选含 PNG 的设备（解决客户机器没有 PublishToWeb PNG.pc3 时 eInvalidInput 失败）。",
+    "release_notes":  "v1.1.44: 强制启用 TLS 1.2 / 1.1（修 .NET Framework 默认 TLS 1.0 被 GitHub 拒绝导致的“无效的 JSON 基元: .”授权校验失败）+ 失败时输出端点/TLS/InnerException 详细诊断。",
     "default_allowed":  false,
     "kill_switch":  false,
     "kill_reason":  "",
