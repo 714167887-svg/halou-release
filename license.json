@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "1.1.23",
+  "latest_version": "1.1.24",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "v1.1.23：JT 强制 ZOOM_W 到方框 + PNGOUT 直传选择集，保证 PNG 按方框 fit；diag 会打印 ZOOM 前后 VIEWSIZE。",
+  "release_notes": "v1.1.24：JT 增加 jt-crop-white。PNGOUT 后自动扫描四周白边并裁掉，方框会填满整张 PNG。",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
