@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "1.1.46",
+  "latest_version": "1.1.47",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "1.1.46 全局暗色主题修复：账号/设置 tab 白底问题修复，TextBox/NumericUpDown 统一深色，UI 高级感升级",
+  "release_notes": "1.1.47 提亮次级灰字提升深色底可读性",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
