@@ -1,9 +1,9 @@
-﻿﻿﻿{
+﻿﻿﻿﻿{
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version":  "1.1.39",
+  "latest_version":  "1.1.40",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes":  "v1.1.39: ① JT 出图改为白底（出图前临时切白模型空间背景，命令结束自动还原）② JT 不再在工作目录留缓存（用 %TEMP%\halou-jt\，每次 JT 自动清上一轮残留）③ 修 .NET Framework 默认 TLS 1.0 被 GitHub 拒绝导致的“无法联网”/“无效的 JSON 基元”问题，启用 TLS 1.2/1.1。",
+  "release_notes":  "v1.1.40: JT 出图减闪屏（VTENABLE=0 关闭 ZOOM/VIEW 过渡动画，命令结束恢复）。继承 v1.1.39 的白底 + TEMP 缓存 + TLS 1.2。",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
