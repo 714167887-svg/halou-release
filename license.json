@@ -1,9 +1,9 @@
-﻿{
+﻿﻿{
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version":  "1.1.38",
+  "latest_version":  "1.1.39",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes":  "v1.1.38: JT 不再在工作目录留下 PNG 缓存（改用 %TEMP%\halou-jt\，每次 JT 命令开始时自动清掉上一轮残留；剪贴板粘贴正常，不影响微信/QQ 粘贴效果）。基于 v1.1.37 稳定版。",
+  "release_notes":  "v1.1.39: JT 出图改为白底（出图前临时把模型空间背景切白，CAD 自动反转白线为黑，PNGOUT 截图变白底黑线，命令结束自动还原用户原背景色）。基于 v1.1.38 的 TEMP 缓存目录 + 自动清理。",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
