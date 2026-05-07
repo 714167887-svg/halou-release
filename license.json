@@ -1,9 +1,9 @@
-﻿﻿﻿﻿{
+{
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "1.1.42",
+  "latest_version": "1.1.43",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "1.1.42 修复内容劫持兜底：DownloadString 增加 JSON 内容校验，被劫持成 HTML 时自动切 jsDelivr 镜像/PowerShell/curl 通道",
+  "release_notes": "1.1.43 修复 BOM 兼容：JavaScriptSerializer 不剥 BOM，解析时主动剥；RobustHttp PS/curl 通道也剥 BOM；license.json 已重写为无 BOM",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
