@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "1.1.63",
+  "latest_version": "1.1.64",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "1.1.63 ZK 引入稳健四舍五入到 0.1（避免 rtos 对 7.95 输出 7.9），刨槽阈值/累加/显示统一",
+  "release_notes": "1.1.64 OLE 导入图片改进：≤6000px 不缩放、不重绘；额外附加 CF_ENHMETAFILE 让 AutoCAD 按 EMF OLE 渲染（缓解放大像素化）",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
