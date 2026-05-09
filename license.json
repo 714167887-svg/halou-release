@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "1.1.56",
+  "latest_version": "1.1.57",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "1.1.56 ZK 累加链按 calc-direction 自适应方向：cd=TAIL_TO_HEAD 时反向累加，避免总从绿端起累",
+  "release_notes": "1.1.57 ZK 累加链回到 segs 正向累加（绿起黄收）",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
