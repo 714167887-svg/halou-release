@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "2.0.1",
-  "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/HalouPayload.2.0.1.dll",
-  "release_notes": "Phase 2 hot-reload + progress bar",
+  "latest_version": "2.0.2",
+  "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/HalouPayload.2.0.2.dll",
+  "release_notes": "license endpoint -> jsDelivr (bypass raw CDN cache)",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
