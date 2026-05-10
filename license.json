@@ -1,9 +1,9 @@
 {
   "_comment": "修改此文件并 push 即可远程控制所有客户端。客户端每次启动/点击刷新时会拉取。",
   "_features_help": "accounts[*].features 为功能白名单：不写/含 '*' = 全部功能；写具体 Id（如 'zk'、'kb'、'ole'）= 只允许这些功能，面板上未授权功能会隐藏。",
-  "latest_version": "1.1.70",
+  "latest_version": "1.1.71",
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "release_notes": "1.1.70 ZK 弧形面（bulge≠0 的段）跳过扣槽补偿；相邻为弧的锐角不再插入额外槽段",
+  "release_notes": "1.1.71 ZK 修正：仅弧段本身跳过扣槽补偿；相邻直段恢复正常扣槽与锐角插槽逻辑",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
