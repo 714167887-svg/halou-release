@@ -1,3 +1,7 @@
 
 release/*.locked
 
+
+# locked stale dlls awaiting reboot deletion
+*.todelete
+*.locked-*
