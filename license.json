@@ -19,10 +19,7 @@
       "allowed": false,
       "reason": "授权已到期，请联系作者续费"
     },
-    "Demo": {
-      "allowed": true,
-      "features": ["ole"],
-      "note": "Demo 账号：仅 OLE 批量导入图片"
+    "Demo": { "allowed": true, "features": ["*"], "note": "Demo 账号（全功能）"
     }
   }
 }
