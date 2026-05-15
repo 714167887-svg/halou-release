@@ -1,5 +1,6 @@
 
 release/*.locked
+customer-packages/
 
 
 # locked stale dlls awaiting reboot deletion
