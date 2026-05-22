@@ -5,6 +5,7 @@
   "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
   "latest_payload_version": "2.0.60",
   "payload_download_url": "https://cdn.jsdelivr.net/gh/714167887-svg/halou-release@main/release/HalouPayload.2.0.60.arx24.dll",
+  "payload_download_url_arx23": "https://cdn.jsdelivr.net/gh/714167887-svg/halou-release@main/release/HalouPayload.2.0.60.arx23.dll",
   "payload_download_url_arx25": "https://cdn.jsdelivr.net/gh/714167887-svg/halou-release@main/release/HalouPayload.2.0.60.arx25.dll",
   "payload_download_url_arx242": "https://cdn.jsdelivr.net/gh/714167887-svg/halou-release@main/release/HalouPayload.2.0.60.arx242.dll",
   "release_notes": "v2.0.60: angry 表情优化为 \u003e_\u003c 气鼓鼓萌系闭眼 + 大块粉腮红 + 嘟嘴",
