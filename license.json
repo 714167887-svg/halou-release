@@ -25,7 +25,7 @@
     "MX123": {
       "allowed": true,
       "password": "88888888",
-      "features": ["zk", "kb", "jt", "ole"],
+      "features": ["zk", "kb", "jt", "ole", "batch-linked-unfold"],
       "note": "客户账号"
     }
   }
