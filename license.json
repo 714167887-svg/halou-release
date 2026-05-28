@@ -14,7 +14,7 @@
     "https://halou-auth-backup.halou-cad-714167887.workers.dev/license",
     "https://halou-auth-cn.pages.dev/license"
   ],
-  "release_notes": "新增 pages 授权通道并修复登录地址优先校验",
+  "release_notes": "增加 pages.dev 授权备用通道并启用登录地址优先",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
