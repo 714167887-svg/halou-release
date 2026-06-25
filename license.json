@@ -14,7 +14,7 @@
     "https://halou-auth.halou-cad-714167887.workers.dev/license",
     "https://halou-auth-backup.halou-cad-714167887.workers.dev/license"
   ],
-  "release_notes": "v2.0.249 ZK/KB/OLE/JT/CL LSP strings use U+ unicode escape (code-page independent, fixes 2.0.248 GBK load fail on non-936 AutoCAD 2020, keeps Chinese)",
+  "release_notes": "",
   "default_allowed": false,
   "kill_switch": false,
   "kill_reason": "",
