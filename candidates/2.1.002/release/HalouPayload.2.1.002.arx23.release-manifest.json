@@ -19,7 +19,7 @@
     "rollout":  {
                     "channel":  "canary",
                     "stable_percentage":  0,
-                    "canary_percentage":  0,
+                    "canary_percentage":  100,
                     "account_allowlist":  [
 
                                           ],
@@ -272,7 +272,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "cd737db93f8789e99e033a477d851f6b02d9f955d2ef74ea8ef214d3a4eacbce",
-                      "value":  "W0SQNp6poEjC2ZADwz9TAHmwgFiz6u31zEY4HzjgMK3J0nxiA1YE6LnBa7UcSP0QvHr-m3KG2B8D_YLsbvir6KFcphXOVipuJ2iqNMTcNxbhtOHIwFvqW59Jq8d5xhlRXqv-rAG0UW64U92p-cgSFgLR-kZP4P813jULQjzkHuS14mN8nME9qwYbjf9EnKpxygMo2cBBrOXmCw7GziFV6pJOjYNk3Qkq44yw9NiKc6otkufGaHebDXOk8N0AT_fZpPm6cYhFhV4sc_eM4rxHlh5XTVrPIFnptLiaSPGbuXGRAawyGwA6K8HI4al4gPA0eBglcnXnPcWtt_BJ8Xh3lw"
+                      "signed_payload_sha256":  "519cce060f7af55c6bd2023a59ee31da57c229245c58552c52b7551c8c36223c",
+                      "value":  "kUWF51RBJnrL3bp72TEc9IQRmJczB6Wa3Y5mNbxA158BFqQ-v2d_OePV07mtzZc6RzJkNr3US_oQ847tQTXzsT3Lyn8LHoF2D9upjpg46yp4FuniAEyNSIFrofNLZeA40wpUwiEf3_CL3_cRnIom4VzTN6sfVSYgNaZOO0ePRu9TzyMTLf0NecK1N89BYXec6fDmagx-hJzDPUtC3BTlb10sHHRs-e1fjhFJAXzl_YGn8ia8KXokMvmWX7yPJnIeOh8vpGehmuKfryVhd-RFAuLANZg0BNi_9tBPbe5xpDYrH2i3Vha45O-UhPQtqWmECKxpzQwdomedprUuIT_s9g"
                   }
 }
