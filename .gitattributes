@@ -1,1 +1,2 @@
 release-manifest.json -text
+*.release-manifest.json -text
