@@ -4,10 +4,10 @@
     "channel":  "dryrun-local",
     "trust_mode":  "formal",
     "version":  "2.1.022",
-    "message":  "重构 CAD 反馈工单界面与提交页，扩大处理记录区域并统一身份文案",
+    "message":  "Graduate canary 2.1.022 to stable (same-byte)",
     "source_commit":  "7c600ca91c789a6a7ad954cdbf1ebacc0c528ec0",
     "source_dirty":  false,
-    "built_at_utc":  "2026-07-29T08:25:07.0574876Z",
+    "built_at_utc":  "2026-07-29T08:46:35.6026219Z",
     "default_arx_tag":  "arx24",
     "arx_tags":  [
                      "arx23",
@@ -17,14 +17,14 @@
                  ],
     "production_ready":  true,
     "rollout":  {
-                    "channel":  "canary",
-                    "stable_percentage":  0,
-                    "canary_percentage":  100,
+                    "channel":  "stable",
+                    "stable_percentage":  100,
+                    "canary_percentage":  0,
                     "account_allowlist":  [
 
                                           ],
                     "machine_allowlist":  [
-                                              "738efe0a9bf50a31"
+
                                           ]
                 },
     "mandatory":  {
@@ -275,7 +275,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "fcc4e8cc55fdd349e5348b15d8c23e5ac2dd41ce8a7d26c8d0480420aac27bd9",
-                      "value":  "msexqb92ahhF9t8yqxwGLCWNJUjFAjYx7oxCaeVtRk60-VuTz7IMNiP3QJdAOiWS0ZWrdXj9LvAM6ilPAVu2I6uD04ewbU0i_poDRQsq-NfOqALwn1m2IY5vZcyrYIV3Calht3pcpnrYOG1qDl841Tr9r4wKKic5WrBYslGrCVxqLQee7GVpoC4dP-RUew4B4SWxGKsQe_ps81kDakGoNaAwCGnqGH3QH4Kx-iQHU0R4o_wdwxtpSmumHLab6vVPTIXWhUeQWXMjktvC1hS9b0eT0pUCCfSVg4L27k21SOhE8Y9zgumFyAL_1_zNhmkSNQ_npFQyZJpbQz5s22hTgQ"
+                      "signed_payload_sha256":  "c7cb76c8ea70c187bb9a8a5f06d8229c30463622cdebc8f162f8c57f4e676105",
+                      "value":  "bNcS8y5axAiny3mUR5cGSjxwtSDV2yxC7XBwgCOicbzbpn41rOq4mkBzM-hxUSj5WpaBCCrSf4E-uS_4yxr3ylkQRQ1A2O9mrM-ZblE0LNNXHyhFVetXs0M_PH92e9ArlpULiq82hcizbCcH8iYH6QPEUtcaQMHJre2esWhAc7EK79xT0I044OMJnyh3msra36Pzzv03gEzA_OcouE-lHYWKTrkxTSbPGbnndhQ3-HNyE5Lz8F67NMrLS7rPp4481sE-yPqAATRr5KEfLCDIQLiYs4NLmm6UQf-ng_RHCpUBxE-dvCuzIeNngP60vFB9LNxN4ET54_mYuL5j-PmX5A"
                   }
 }
