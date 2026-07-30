@@ -4,10 +4,10 @@
     "channel":  "dryrun-local",
     "trust_mode":  "formal",
     "version":  "2.1.034",
-    "message":  "检料表物料截面线聚类并入克隆，修复导出缺线",
+    "message":  "Graduate canary 2.1.034 to stable",
     "source_commit":  "af5a287387c258dd339f90b7c9a8e69e7b34670a",
     "source_dirty":  false,
-    "built_at_utc":  "2026-07-30T03:49:10.2284656Z",
+    "built_at_utc":  "2026-07-30T04:00:25.5897752Z",
     "default_arx_tag":  "arx24",
     "arx_tags":  [
                      "arx23",
@@ -17,14 +17,14 @@
                  ],
     "production_ready":  true,
     "rollout":  {
-                    "channel":  "canary",
-                    "stable_percentage":  0,
-                    "canary_percentage":  100,
+                    "channel":  "stable",
+                    "stable_percentage":  100,
+                    "canary_percentage":  0,
                     "account_allowlist":  [
 
                                           ],
                     "machine_allowlist":  [
-                                              "738efe0a9bf50a31"
+
                                           ]
                 },
     "mandatory":  {
@@ -275,7 +275,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "e03330acc316c76263428175790b29815d88ec04192e9e78b4939c6026ef95f9",
-                      "value":  "iXJh1sZvbsoZOJxD2kX3RlWt8cQhcm38NDUKLkq7O5m1cd8gYP9hgbNolFFoi44KrCT4TvvXi2XRS9I7iC5ThQVvcYAyxPdRORgvKozNDUuUFSsTYuCTiUuXQGIGHFrSctDgeirq2rWZRqPW0lX8WBzz1ZEa5GBTp50Cx_yNk0vcks-nqqr2M264v5mnNQBcaebhZ5ruYpUbRF1NlN8HiOwBuFwEl35IVJDejSefFzGPAgi6251u2JO7jK5UrIttJAhAYBwRDyskeUPnS9XJyksevz6FOYk-CQNQEAyiBcM1sCuhAMNrK00tbpKjlWbqfI0CSjubrEz0jjuV74bcSA"
+                      "signed_payload_sha256":  "364d33a64a99153decd13b28789a163327fd9eeebd9fb6f00e41d7ed1629a296",
+                      "value":  "Za_Ghfh9IaMn9Eo8KbXQLoQySfVSfyk4dVI-03DLof6C0bJo-zwc1fqs7z9EfvPkTunXyBNZ6ZhAudcKN20N9HKCV6GNh_aLBQzZxzlcsatQkJHx8KOknvofsfu5c3TkKpxPVoQPNWmf36mJ8sgcLYFB6l1QOlOUVGW5KCdZwawZCavmgaZLIHIbUb7pAoMFG8Iob2QqFpYr4NSWax80osh-aHzCK1odYd6eBdrI7tlcWcWk5OXm6-YGX-N79Uv7DR5IB1n4sARPziFywONO_CzGO0E2OWQ8RowEd2uNvsD-t2B1Tz6osW7dfzBQGxgLCBf7JM-89v1zPRbHv1m4uA"
                   }
 }
