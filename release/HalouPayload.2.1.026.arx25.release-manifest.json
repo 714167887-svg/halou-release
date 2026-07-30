@@ -4,10 +4,10 @@
     "channel":  "dryrun-local",
     "trust_mode":  "formal",
     "version":  "2.1.026",
-    "message":  "长时间会话卡顿缓解与快捷键常驻",
+    "message":  "Graduate canary 2.1.026 to stable",
     "source_commit":  "7f0f2ee452c4f45c08401b73e06d58cacad55b45",
     "source_dirty":  false,
-    "built_at_utc":  "2026-07-29T14:01:41.1148398Z",
+    "built_at_utc":  "2026-07-30T00:09:14.5005021Z",
     "default_arx_tag":  "arx24",
     "arx_tags":  [
                      "arx23",
@@ -17,14 +17,14 @@
                  ],
     "production_ready":  true,
     "rollout":  {
-                    "channel":  "canary",
-                    "stable_percentage":  0,
-                    "canary_percentage":  100,
+                    "channel":  "stable",
+                    "stable_percentage":  100,
+                    "canary_percentage":  0,
                     "account_allowlist":  [
 
                                           ],
                     "machine_allowlist":  [
-                                              "738efe0a9bf50a31"
+
                                           ]
                 },
     "mandatory":  {
@@ -277,7 +277,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "54fd9ac0cd978d0ca3a37bc05201bb91a290c67e641c5437e4f1443a0d011908",
-                      "value":  "bY1O8xtde8omMQMNeSufS3yamyh8cf9fNLyHxP_jye3kQR-YPuDD_GL089dxqTB-jooujNZOIY6EtRDgxRqOmBQIvHzWPk_3Rj9SRwxqEuvM0U0xRunfIyNiV7Ii3ahOA7fVHX-KGXIXwLl5QCOHS8cDgEeZs-hPBCm0q7CUXblKRsuDIpfsQS6IhYvm9GYErjaeNBEVcoCBjn6Z3j7jvq70bd4fTXwvq5ADU7rxxAlObpf8HQigf31ULGneAoeQaO39iUuIbOtkY-emtu_nvsc50KAww610CzBtsLQ3Yqzj3uLlLcckPO5GVtx35nhrbP0rDX_8O4V86IaZ-WdF1g"
+                      "signed_payload_sha256":  "c322e29ff499731b486e74aaca0c48cbac3f830f7da4010537e0e3ebc6ae6aa4",
+                      "value":  "WwTZPopmHsOqlulUSxpMapITu9ExWaXfdzEYRoEdQU59WbnZHA2CgVGodi2Bv3M6-MUSUPLMkCVYRmcnyCbCjt8j_CxkpoZk_e4h69ub0F4YahvHw0TqZHagn1NpRaNYfHq2SaXEYiC7N9xiVNOUzJKT5_ccoVDuhJ8TMHprMV5NHsqsVytkqKI6nBB7fhW5DBaS96gd8Ohw0pRiDjRqHb1a72b1WlG0DpipnKT1twhA30IjMGixBYdYViMozu66v5KOatq66g8ru3_0eSs15V9glqeGLlX_Hmn3cmd9VV0vZuqENchl56sDFIpljdakBmggNdth78mkT2l-2xp0FQ"
                   }
 }
