@@ -1,0 +1,21 @@
+{
+    "SchemaVersion":  1,
+    "ManifestFileName":  "HalouPayload.2.1.048.release-manifest.json",
+    "ManifestSha256":  "be170e26a1967849736c4fd0d4cb70e6ff107b8e739f89fc40180483979c7536",
+    "ManifestVersion":  "2.1.048",
+    "LocalInstallFileName":  "HalouPayload.2.1.048.dll",
+    "ArtifactFileName":  "HalouPayload.2.1.048.arx242.dll",
+    "ArtifactArxTag":  "arx242",
+    "ArtifactSha256":  "f3b1ec8ac6a989e1386449821270dc29804ddc837e89aba72e7de1e1eea7fe03",
+    "ArtifactSize":  1037824,
+    "MinHostApi":  2,
+    "ProductionReady":  true,
+    "SourceDirty":  false,
+    "LkgAllowed":  true,
+    "MandatoryEnabled":  false,
+    "MandatoryMinimumVersion":  "",
+    "MandatoryReason":  "",
+    "SignatureKeyId":  "formal-release-manifest-current-rsa2048-20260716",
+    "SignatureAlgorithm":  "RS256",
+    "SignaturePublicKeyFingerprintSha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25"
+}
