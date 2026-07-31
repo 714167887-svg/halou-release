@@ -4,10 +4,10 @@
     "channel":  "dryrun-local",
     "trust_mode":  "formal",
     "version":  "2.1.044",
-    "message":  "Rollback ZK zhengfan notch deduct to 039",
+    "message":  "Graduate canary 2.1.044 to stable",
     "source_commit":  "05e6e84bec41fd973162dcb3290ae660b3ab5e07",
     "source_dirty":  false,
-    "built_at_utc":  "2026-07-31T01:57:18.0482051Z",
+    "built_at_utc":  "2026-07-31T01:59:41.3317771Z",
     "default_arx_tag":  "arx24",
     "arx_tags":  [
                      "arx23",
@@ -17,14 +17,14 @@
                  ],
     "production_ready":  true,
     "rollout":  {
-                    "channel":  "canary",
-                    "stable_percentage":  0,
-                    "canary_percentage":  100,
+                    "channel":  "stable",
+                    "stable_percentage":  100,
+                    "canary_percentage":  0,
                     "account_allowlist":  [
 
                                           ],
                     "machine_allowlist":  [
-                                              "738efe0a9bf50a31"
+
                                           ]
                 },
     "mandatory":  {
@@ -275,7 +275,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "c96cc9358fd75daaa1a536594af981ef02668ab5d7c57bd6fb4dab21192c5bed",
-                      "value":  "hcXhCZKhLPZvRENwgbBDh4NBVVqShBTbxmewIR-r2CFenDt2li7WL-aEHVDlB5AChSBOsRSx6PS5sJou-TxuOGR0rrEci7mob_IAwOEQb698F0TaOQ1lt1PyrTgQ2AUfzJKkjbfA9AF0yca_2z762KnB1Xa1T-7qfpOtWLkHWNbjTSUn12mcrOxY_ePH2zIqeGhTzlf8Pd9jtDT5NYfjkEwcyQm6BSqB2coTrQIi6yzCYdmFg5JgR9cg7XpHvdqLtLUnez-W2Uot63ATIo-fyZM9v3kUERs5SXmmTiACE458PPxqOhmCZ7AOgLYC0RGESpergLKfipIokJloahbDiA"
+                      "signed_payload_sha256":  "9c9283f7fbf3e0d77285f104e68658f7f8f5714b2e9afd830786d516e47d8e48",
+                      "value":  "H-haF8GRBBgRFWmeAaa8KUzBme6N77nvowrjCX45KRQ2WbbmHb1OkEhEAMnLiD1sYKma-PRkZVzrz-7cuXgf3jDaMqYoHTDT6Wsj0YMRLRyjHHryFjPMln50rRKI3yTRBkIdq-AG6uGwS4GrjXUFxPkfopFsxS1Mg66CvFgmCRMuz-9fHqZXvXk8j5EddYay-bwm4QsPY9Vhc1VCQvhckpVqWFr4g4tPwqtyUVXxJTowZi0YQgSmRz-69cpNRh3gC63XOm4R5qpcMuwJ5nIXA8c3IbsqJEBlECw1rAXQ4qbz8uFAUSt1skDt2mkc5_hRMtp8IyW_7Wu3tIaEzFDKAw"
                   }
 }
