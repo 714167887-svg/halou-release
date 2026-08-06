@@ -4,10 +4,10 @@
     "channel":  "dryrun-local",
     "trust_mode":  "formal",
     "version":  "2.1.080",
-    "message":  "Fix material text overlap in single and batch review; harden recovery, authorization, install and OLE/PB output safety",
+    "message":  "Fix material text overlap in single and batch review; harden recovery, authorization, install and OLE/PB output safety [graduate-to-stable same-byte]",
     "source_commit":  "e079af004e150c10510f024b7e389a84fd61cf6e",
     "source_dirty":  false,
-    "built_at_utc":  "2026-08-05T05:27:04.3737817Z",
+    "built_at_utc":  "2026-08-06T05:50:52.7689388Z",
     "default_arx_tag":  "arx24",
     "arx_tags":  [
                      "arx23",
@@ -17,14 +17,14 @@
                  ],
     "production_ready":  true,
     "rollout":  {
-                    "channel":  "canary",
-                    "stable_percentage":  0,
-                    "canary_percentage":  100,
+                    "channel":  "stable",
+                    "stable_percentage":  100,
+                    "canary_percentage":  0,
                     "account_allowlist":  [
 
                                           ],
                     "machine_allowlist":  [
-                                              "738efe0a9bf50a31"
+
                                           ]
                 },
     "mandatory":  {
@@ -275,7 +275,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "9d2613861bab68f1d1fa6f4d45e901ea3de33644e56240b00ba586b3bd421c59",
-                      "value":  "MF4-kq4KDfekkRS8fsKlWLYLePGYFO6nwC6Tnda_rNjjKsH8jfGxJQ-BJCkUovqI7TpYYPd4hd9pJTMyvdgpnbnheiyXX0Ms23j3MykM40lpLWEOFElr6pDE_iWoRLEUqQx_EQ-1yIlvifuUwMG7EUCPf9-BEPYovGswd_ihkFBzcRawKTv9TuQ0G4QEBK2QvyZ520DfKIK0W-wiSDHP5030-Nqr77KriOnPY9PF0HTXTHlr0QqE9nALPeRGlH3AFOhLY4a23Z0kAPigd4KZra03tsWP9BRSKTp80tq_pO3bram1UCqci5k3Y1KQXtb2Zly73fIenfkqVRWGrSGsnQ"
+                      "signed_payload_sha256":  "543bab74af8721c487cf5faff749fb146de2c829d7c9ba4be2828c7fc3374037",
+                      "value":  "EB_zUoh5fUs4cj0c8xrKN5sn8CENbzlR-5Qe3cTEXNxLMXG6iF5_m2XSesTPTQakSm5Rb3Uwf3Rjxb5qwV79MUo--xsqcys7m6ZKqr1pQR7hvbKItpoeF2IqJDq4NSf1f8V_DwPB34BEF9Mw74xIALl4CJ2PwBl58zwfTnNOPCBdjv-Ta1wY7-mBVeZH7Fmf2uduzECSkEyruL5B8k5xTOiyO8R0TA1BXpPCM7nA_m0exrRLKPXsmdUu28wpIhDCcCzT9uZbgMfwOsyBjqhKuHoSZETmG9Ask1WAK-ayI6Ml_0zStCdzxV4-1Ph8uOSTDgKHkyph_G2LtIKHqIPYww"
                   }
 }
