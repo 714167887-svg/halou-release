@@ -1,2 +1,3 @@
 release-manifest.json -text
 *.release-manifest.json -text
+**/halou-plugin-manifest.json -text -diff
