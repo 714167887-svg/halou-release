@@ -4,10 +4,10 @@
     "channel":  "dryrun-local",
     "trust_mode":  "formal",
     "version":  "2.1.091",
-    "message":  "修复 ZK 缺口区间容差不一致导致开缺与展开缺口段错误",
+    "message":  "检料审阅与批量联动稳定性、ZK 缺口边界修复 [graduate-to-stable same-byte]",
     "source_commit":  "fe4746bd24fff86018f7a29912fd0289ed4fbdd4",
     "source_dirty":  false,
-    "built_at_utc":  "2026-08-13T08:29:21.3627450Z",
+    "built_at_utc":  "2026-08-13T09:14:57.3729637Z",
     "default_arx_tag":  "arx24",
     "arx_tags":  [
                      "arx23",
@@ -17,14 +17,14 @@
                  ],
     "production_ready":  true,
     "rollout":  {
-                    "channel":  "canary",
-                    "stable_percentage":  0,
-                    "canary_percentage":  100,
+                    "channel":  "stable",
+                    "stable_percentage":  100,
+                    "canary_percentage":  0,
                     "account_allowlist":  [
 
                                           ],
                     "machine_allowlist":  [
-                                              "738efe0a9bf50a31"
+
                                           ]
                 },
     "mandatory":  {
@@ -275,7 +275,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "549818d3ea7a3be8442f8f8607e894e3d1ad915a5bb6d4a547ac01d97d210d55",
-                      "value":  "hcD8LCxiltAXEIOIUlbukeaPqpm2sKDOgYi4oK4cOfAXHZGOUVm1Ig34WbSWGYNYKUbo18q1BnL1Bx_B2YnPV-_4-x-L3MYvSVmnAVHvjDCiU85yyAQeNqHnG2UrCEx11uE0dru4h9gUOu9HyCuUih_E43b4XNjDufs978-7oW1P4q4U5DfOZrk9b6U6LAdqRTF2NJbaSP5PqmZc3GDOV6MyS7POl0N6bkAX_p_M7XC6XQCrGJ6kjxZIO0kkjsufCTrcMm1X04n1anux-wO5VjZzkteF7OBhF6os_ddgk5jQ_Np10tB5WA1G5W2algmicnBJo1_eSybL_brAEKAeZw"
+                      "signed_payload_sha256":  "0e1caf3c56b8c5dbbf1831c29b80898e5a6595b637c4bf1e281aedb61c4d0b30",
+                      "value":  "OmazzlFSbPEgQpm8LgOOoz2ltdhEQN746bvaFFdHEyXPzn-6NL3MqCTKw1veb4XNHXmrXECOD5-WAs2DkGlkbreimaYkFSnAO30A1NxF0zQplTEJ-ObM1MW46WawwULsA9t3kZcTP2U0hRZIihIac6evEC36M_CCNdNz9JCCw9hl1Hc8pMPzGMq_3e_QV-IKEVHqhWv7_fN-4nNKHbeAFZ5MSahJ9YGUeaoGMlBS_ACDMugS0Cw7tDo9qBE_da9EMQiV4vWPh3MKhh6UHoyqg-s-xcR4rteOEPLyyCcqDmXG1DMBAfmOwGxc3oeXtSGprVClx7kM0HzuT1vQpwc5Cg"
                   }
 }
