@@ -4,10 +4,10 @@
     "channel":  "dryrun-local",
     "trust_mode":  "formal",
     "version":  "2.1.094",
-    "message":  "Material review confirmation and batch order frame ownership fixes",
+    "message":  "批量联动订单号与检料表框体修复；审阅物料确认提示优化",
     "source_commit":  "4339f096067b1fd46bcdf0d93f8a20c163c2b8df",
     "source_dirty":  false,
-    "built_at_utc":  "2026-08-14T08:01:24.9042935Z",
+    "built_at_utc":  "2026-08-14T08:33:24.5970388Z",
     "default_arx_tag":  "arx24",
     "arx_tags":  [
                      "arx23",
@@ -17,14 +17,14 @@
                  ],
     "production_ready":  true,
     "rollout":  {
-                    "channel":  "canary",
-                    "stable_percentage":  0,
-                    "canary_percentage":  100,
+                    "channel":  "stable",
+                    "stable_percentage":  100,
+                    "canary_percentage":  0,
                     "account_allowlist":  [
 
                                           ],
                     "machine_allowlist":  [
-                                              "738efe0a9bf50a31"
+
                                           ]
                 },
     "mandatory":  {
@@ -275,7 +275,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "c413f4b22b476c505da7b97156df0dbfa462ff99c6c6fa68446d7579dc7e5f76",
-                      "value":  "c8Zf7ov_DuKAP0jR5UIkbFmi_VsCxZr31jkm_NWhNauHmXZ-I62o0NBAmb5H4mJ10FHfL1Oh6CR234wdmuTXn07L91VxreOC4EpjbNg5_VhuVlPQsg72VmbcqdRw6wbXSI9Yi3dDZx4awTaAfcQXclqdv5evOAf1VxPhUJN5v5l863yxO3_EwlcFxZAJrgnTEc0M-jA7IPd_BUqX9VUlfHiWHPcNAaTHZetUD2QZMRjkiprwAMssEBWeLryE5-Pbmyg9l9W6prZYjqGdIJey_LnDzMRpw9aQi2W7338iy4TC3KMU9AYN2K9cIohQ6dkSFfq0hgDGa3MEgC7I4QZPHw"
+                      "signed_payload_sha256":  "7c3db16d8bf6d0c4932b6e068cb4432c9ce3a2ec39d13ec172608249f2814b4a",
+                      "value":  "Np7AdUcoAiWFjd-XNRO5qOgW7kgnheWzf1kSkIwEYLj6P-e_0eyQCnaemzesEDvJ5waH0S0OLIJ-GyXYk4p_KZjlKgnr3W4UPeewfC6ZsgyMtzQO3WYxZU7QiYUNncmLo7cI2P0ssgUFW4iNl0Eq4ooSEtCjc-TnhlwsFN2fmE313ODZjnunAYHbv_bPTD6YThyT7evrdfY1r7zTzZpaAiTMtqfebVlFuG3HY2KnOuJ9xjwmAsP_V8GPCVas_4-btpC25DWlusbqeDCPtF9BCDZl5xyLJ26obviYjjL2-GgSkKHTxfCWMIfBY6lpZSSkla6TfeHc_84wUZXooG5yAQ"
                   }
 }
