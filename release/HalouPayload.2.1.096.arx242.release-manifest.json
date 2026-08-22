@@ -7,7 +7,7 @@
     "message":  "多模版审阅与批量联动性能优化",
     "source_commit":  "c439fc2403ce0460fab9d2449f6f60a9fc17f160",
     "source_dirty":  false,
-    "built_at_utc":  "2026-08-15T05:18:50.6347668Z",
+    "built_at_utc":  "2026-08-22T04:43:36.3156582Z",
     "default_arx_tag":  "arx24",
     "arx_tags":  [
                      "arx23",
@@ -17,14 +17,14 @@
                  ],
     "production_ready":  true,
     "rollout":  {
-                    "channel":  "canary",
-                    "stable_percentage":  0,
-                    "canary_percentage":  100,
+                    "channel":  "stable",
+                    "stable_percentage":  100,
+                    "canary_percentage":  0,
                     "account_allowlist":  [
 
                                           ],
                     "machine_allowlist":  [
-                                              "738efe0a9bf50a31"
+
                                           ]
                 },
     "mandatory":  {
@@ -275,7 +275,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "0b41a26a59c3877b8746e3dccd6152ffda898eb29503dad7237bbd912ebe5ac9",
-                      "value":  "gT86yUFH51-TzvP13937qS348dkDR4zft073OpO5tY1vCQ3DNcfkedNP0NsnYff9l6SNL1TUAAE9tFcREdpmK1eS4cGMPtGkkg1aG0TkL4EVHKoLC-gFnELSJ4Y0plGctvdVLCh78A312vQYCfS2nQfspkWki7Q_KTsW9H-J1vnLqls_jifGrrk8mVtdd-NkFj9DBMC1CML-fsK03oiB-FGuC8_ZJVXjSZKMbkVJfRzCe9ZoyfWt3uXhHaj6sf7D_m26ddxjXn0PUpPWlN5TFVYHhLtX-FJ8hYF7sI4XPEiIrqCGEJdGgHPXgUq3XPMRr33i6mvoPNb2LU4yBprvWg"
+                      "signed_payload_sha256":  "4879b4f51ec81358d391fce6c70df91fa1c7c230228f72e293f7a641f7f5a78f",
+                      "value":  "nRpWhddl7hijndfjescxxDQebpcJDLEZ2XDnBvLed83Z3jssmTc-YEgFgleyRIR_5T9XMaBzxoxuYi4wsbwVrQE_7xrQh3YXkX87if-REj0xLP0JSj7HJxHAtDo0Y4IAjwBksEOOeCcVQn__U6Z_7B7kt8yTe01_hO4oXLZM9b7qFh2Gev6YpIpXBfRvyILOYPYmV29ysKPAEXegUb-0ydf2S0plA22s8ygjyL2utqZiVqh39SngK74og1PYkQbA3NdWNITtes3bZ0_VjLhJOrAsRvLNpES7ySFFb1zD1x0pQHUWSjs0uytItxUDBMDw-agg4kCq5oqT4V-lhi8whw"
                   }
 }
