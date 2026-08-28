@@ -4,10 +4,10 @@
     "channel":  "dryrun-local",
     "trust_mode":  "formal",
     "version":  "2.1.106",
-    "message":  "灰度：紧凑闭合装饰盖支持一至两个严格尺寸标注，1006款下轨装饰盖内部标注可安全随截面复制。",
+    "message":  "Stable: compact decorative-cover profiles support one or two strict dimension witnesses.",
     "source_commit":  "606f146e3bf73c18101dc72e1e22509580e0451f",
     "source_dirty":  false,
-    "built_at_utc":  "2026-08-28T06:50:32.1925587Z",
+    "built_at_utc":  "2026-08-28T07:55:56.1881083Z",
     "default_arx_tag":  "arx24",
     "arx_tags":  [
                      "arx23",
@@ -17,14 +17,14 @@
                  ],
     "production_ready":  true,
     "rollout":  {
-                    "channel":  "canary",
-                    "stable_percentage":  0,
-                    "canary_percentage":  100,
+                    "channel":  "stable",
+                    "stable_percentage":  100,
+                    "canary_percentage":  0,
                     "account_allowlist":  [
 
                                           ],
                     "machine_allowlist":  [
-                                              "738efe0a9bf50a31"
+
                                           ]
                 },
     "mandatory":  {
@@ -275,7 +275,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "0bc7719320cbf81b35707f4669b2760539202ae6cca085646fe587cb63828bb8",
-                      "value":  "F0b5Q2dfLhZVk-K_9BM6BN49ob95P-eQuS8wMOP32SItvJNvgZzgkxjAm6zrfJ-tcZ5GJtjWFcGtKSX8nrhoBUzicoxYI569ZdfTP1PCK6tykTCHpwHpLgUQ4lU38gOTcMhkUwP2W_guqBI5uWYYIBYxX8U-fRleuNiDnHs8o3ytAh_vA37KdgSm4P-LO9TPF3QJi77uS8pgNh2mUArOKJwyIBnZhFRGTAskZw958kKv1H29dpRSOs1RScgI83qu0HOJN6UUuz9UKGanbJz6TcwDUt0AvpiG-I6v2_4a4-hHbFExgVDrDP9fCXtHrP2KLooO6RfE-_Dj4VhWOEZg7w"
+                      "signed_payload_sha256":  "46ac2ce214c004432344017ff43352ab6adee9a9a2d3d895efcd026ca42da969",
+                      "value":  "rM7EmkaOD-djUTciKsM_yp8GPh_uPLLDlrn4KkmFbcZfVTQk7hee6kJj6v-NKFx6j93F3Nrb1g7nwgZXtq2Tu0gjbI6rZ6SamSl0AbeVvwXImM_2EbEwqXGdd1FCZMRjNwhdFqqkCd4Arcx4etqtzEN7C9TE41zb_QqmEmV-ZOTjjOA90uQqyEVDtcl_r3NB14dwzK1CTz-yEbCbYU5g3MGCIsk7U-5mOEztVEBVep-IwIeY9jC0uo9TLEWIHrvYpb6gB2nJA-Y1Bi4217d9edOPcU2EnrR8nP14a6izbC16vNLB9GHdgMd5zenNOuMa_wyRd6Qk7bgAluQY4RFOfQ"
                   }
 }
