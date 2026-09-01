@@ -4,10 +4,10 @@
     "channel":  "dryrun-local",
     "trust_mode":  "formal",
     "version":  "2.1.114",
-    "message":  "灰度：批量联动展开窗口支持最小化、任务栏恢复与再次打开自动还原。",
+    "message":  "批量联动展开窗口支持最小化、任务栏恢复与再次打开自动还原。",
     "source_commit":  "ab459a8dd1bd066e27e340c4b606352749939bd8",
     "source_dirty":  false,
-    "built_at_utc":  "2026-09-01T02:18:07.6083557Z",
+    "built_at_utc":  "2026-09-01T03:01:12.9012367Z",
     "default_arx_tag":  "arx24",
     "arx_tags":  [
                      "arx23",
@@ -17,14 +17,14 @@
                  ],
     "production_ready":  true,
     "rollout":  {
-                    "channel":  "canary",
-                    "stable_percentage":  0,
-                    "canary_percentage":  100,
+                    "channel":  "stable",
+                    "stable_percentage":  100,
+                    "canary_percentage":  0,
                     "account_allowlist":  [
 
                                           ],
                     "machine_allowlist":  [
-                                              "738efe0a9bf50a31"
+
                                           ]
                 },
     "mandatory":  {
@@ -275,7 +275,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "6965ec38928f9649d6b6c5be7bf0f1a91a8d6a3e1f48a1f2e6fd62a70b58587b",
-                      "value":  "gpBjPoh6EE8-51c4S8DnqBRbIZBg5qRD8UGQc74Vf7dh-Ne08IM_dw3S9GnzpEMjdiEsaDdctjvmffX-VVyPsJQ0TwfjBySXLgGgcO3VTkH_Cb_aUMQP29UxBbh-_v9J4A94lfI_EfpGTEkAUdbZM8FsTu4iHh-jSYRQpuWQ7wWVvjCEx81ngnxa4CXIQrsPBbLyzct02Yv8COreXA6kveclvJzFZGwxHvNh8h9xiDy_3ToCHmGqLNc7AWIv7qSpy568jGin9eusVo5TNLbmzps_wsxLsfXznB__ApB2ewIDNgHX6cjEO_9G4ATQVGA2Rp4aprrFWxioMwOgOrGyqQ"
+                      "signed_payload_sha256":  "71095608a59b7db36730c12e73e76583fe3ff98d7a8f7e38881ec042a61538be",
+                      "value":  "afpfV2X7KX1WCQ-05pP24ZWg95SyxR13HWxFhsHsZzABOD1U9p5J7AGySDNUQs6NTdMoGUyxuMVOq6r7Hb43sqmZwPhuLNp6-aSNlkvFFBAYx_gQvnWZoKP4fN1h83H7pDm4B0sqmqDHBcunnD1KtovpfaplZ6YKz_E_8A3mCDzMjOHq7tQAE_ieg5_lbI3zDHtJgvZnpUYw66SxU6d9r81cSwo-7hMvr8_y0zz8a6dg5MI6NtY6AzX_jp5k1y1c84Nf71yoxYlv8yu-wb_awjVOmy1Ui6K4JuCOVpKDwuSiA9I-mSv3KOKsIZ-_pSYNjmluU8tcImv5fItd03JAUA"
                   }
 }
