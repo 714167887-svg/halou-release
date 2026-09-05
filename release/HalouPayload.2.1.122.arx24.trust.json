@@ -1,7 +1,7 @@
 {
     "SchemaVersion":  1,
     "ManifestFileName":  "HalouPayload.2.1.122.release-manifest.json",
-    "ManifestSha256":  "b306fbe10dab9c47cb45b13649c71a0c3d0c58da0aeeb3a69f703c4e904abf3b",
+    "ManifestSha256":  "f3055deeaf1b860b2c77aa50948fb004905f7a58b495c056ec6d13b7e7cecadf",
     "ManifestVersion":  "2.1.122",
     "LocalInstallFileName":  "HalouPayload.2.1.122.dll",
     "ArtifactFileName":  "HalouPayload.2.1.122.arx24.dll",

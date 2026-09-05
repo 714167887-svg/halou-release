@@ -7,7 +7,7 @@
     "message":  "BZ 默认标注文字保持居中，保留 CAD 当前标注样式的原生文字位置。",
     "source_commit":  "594cdbdf44e6e855d0ab9ebb64140ac3b0aefcf9",
     "source_dirty":  false,
-    "built_at_utc":  "2026-09-04T10:01:29.4379294Z",
+    "built_at_utc":  "2026-09-05T00:58:35.3407142Z",
     "default_arx_tag":  "arx24",
     "arx_tags":  [
                      "arx23",
@@ -17,14 +17,14 @@
                  ],
     "production_ready":  true,
     "rollout":  {
-                    "channel":  "canary",
-                    "stable_percentage":  0,
-                    "canary_percentage":  100,
+                    "channel":  "stable",
+                    "stable_percentage":  100,
+                    "canary_percentage":  0,
                     "account_allowlist":  [
 
                                           ],
                     "machine_allowlist":  [
-                                              "738efe0a9bf50a31"
+
                                           ]
                 },
     "mandatory":  {
@@ -275,7 +275,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "22e83e84bd2ac19eceec830f397e8359c3703348a94e55bd013f1f7454c5d525",
-                      "value":  "C3is050EzQPK1RWVh9L4N4ToPRqW7or4j40yczVLDXe5V4TUnekbBOJKNtxf2YkrlNtZLz9ZlQfr_oBJ2dzI3kK5cx5IyUtJu1biOnggqpN44JtsUtZ13lL5MkU6SFDv0p4h3QGhtNqJ0S-p_Wq86p2-oTizRlxctVjzZ1nAX1B9Q5jgv-wnG4PD42cV5MVyFhvyLrICnctPXYhx0PsxjbCey62k4yS7ClmQA7Wk6z8E1TRZvSGeSlyyZS3P6s0Ag2ZQg_uPFoXNkxU19gT-g6NqVZDgKXtoe5ki7l8Uc6FAPXAz7MvVyG1KoNdiJoVAnQ2Z4MvSrM-t3PwpxrUQEg"
+                      "signed_payload_sha256":  "e40c270bd6ed02dd50ee52df7ddb518afb32f811219f232d882c3a8632df1657",
+                      "value":  "P15GIy5Zwjch9KlVZMA0PB1TlJ5xigGd0bgzPQ4twYQKh6cEKg_N2apC1NXtUb0S6WH5uzqO6yyjTh11a6hCXpjV1RQezYuetvp8vG-mGBj2G9j_o2l2w6FhozyGyJY0zgFIfm0vD6G_frLtlckZbCs51YUhzIs5A9XaztzZD08C6_88RMDc2MGXiE_mDTmnfvpejcj99HG-ZtJNRnguDjVj33qUA1m17w_YbY-FAstJZjDwMPODD5gaGXKvDiBnNBTYsHEJKL9lhITaLsQmaOcv9gjbyTFMfYS2XmRZl3OKV2iIDfDoJrpherzNx5r47U9Z9_XBjkuWTAYTRBPI5w"
                   }
 }
