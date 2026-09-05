@@ -7,7 +7,7 @@
     "message":  "物料规范审阅：空检料表直接按模版位置顺序填入截面及原标注，不再弹出排列方式菜单。",
     "source_commit":  "6a62d17f33cf09ed3a1cd8b5467b5ef5ebb8f667",
     "source_dirty":  false,
-    "built_at_utc":  "2026-09-05T07:15:12.3792457Z",
+    "built_at_utc":  "2026-09-05T07:34:47.5511434Z",
     "default_arx_tag":  "arx24",
     "arx_tags":  [
                      "arx23",
@@ -17,14 +17,14 @@
                  ],
     "production_ready":  true,
     "rollout":  {
-                    "channel":  "canary",
-                    "stable_percentage":  0,
-                    "canary_percentage":  100,
+                    "channel":  "stable",
+                    "stable_percentage":  100,
+                    "canary_percentage":  0,
                     "account_allowlist":  [
 
                                           ],
                     "machine_allowlist":  [
-                                              "738efe0a9bf50a31"
+
                                           ]
                 },
     "mandatory":  {
@@ -275,7 +275,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "24485bca4376b5385b7b65a353417c333b28a8fcddabf125d79453f524171a91",
-                      "value":  "HAZmqMmKAHm62mfVr19-sIMTgEfNPuNzFjPCnJGnkSlREEMMAdO-hExJbDHl7pjvLSxa62agDS6kJGjr_RBV8DZAeU8GueXdmaTjp7tcKIQMRZ2X4TK-mFILVpF-f2S_0b5EOhL4kYhWfhOFE4iTbLDK7j8knaBtyU2AX1-l9BR7MXoBCMHznOEftoMdCVspmWg1D9S9Xy2DI3PM0q8w4SHOeKkev1w_eFY0YcoiMg19ASHDnfx2MXXFfGX0se2C150YavcTGoq85N490EGE_rICToKrlmv7j-hLGwD5n0RzRECWuQUPcvjN0LIRysrIPyvmHn-9V_d-V3WzMYOELQ"
+                      "signed_payload_sha256":  "7d65059256f9441f803e45c7671e78cdbb51352b44f6bf27c6a1935aee1963ef",
+                      "value":  "pkXjyMqyigHfZHw8Qhr_ui12-PBSZSXb31VFqmHY_akL75cfrDsYfIWnFhsRM878hbLgCLaqkXhA9ym-2Mn13XGwMh3Sv0ip8GfQyIq4mLhSkWWw44XlKP2OSosC2hDP298kgDliwxjQaXMBbtwika9YpE86fsPyYESo8SL_gIv9voSI4c9-oANMv9P7J54iG0x8D4Yj8WQDBWQnMYJdOX-9Qswv6KDeHoHQJdJUDrXawnk7m1koYPKGuLL8olE750I063Z4C-OevuDAtyklNEhEqKzNWPWvrZ67HWw3fui4JAneSkzLhDjruwuKbQpCgqSez7w60k-Ubx4cM1JxxA"
                   }
 }
