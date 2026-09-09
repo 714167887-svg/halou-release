@@ -4,10 +4,10 @@
     "channel":  "dryrun-local",
     "trust_mode":  "formal",
     "version":  "2.1.133",
-    "message":  "",
+    "message":  "批量联动展开：子联动框选定位包含移动端点和完整公式文字并增加留白；优化点击需框选时的响应，保留框选校验与完成后的标记更新。",
     "source_commit":  "d300010c62cd26ba6b01c2916cd281a59855c80e",
     "source_dirty":  false,
-    "built_at_utc":  "2026-09-09T07:40:16.8915633Z",
+    "built_at_utc":  "2026-09-09T08:14:42.4658250Z",
     "default_arx_tag":  "arx24",
     "arx_tags":  [
                      "arx23",
@@ -17,14 +17,14 @@
                  ],
     "production_ready":  true,
     "rollout":  {
-                    "channel":  "canary",
-                    "stable_percentage":  0,
-                    "canary_percentage":  100,
+                    "channel":  "stable",
+                    "stable_percentage":  100,
+                    "canary_percentage":  0,
                     "account_allowlist":  [
 
                                           ],
                     "machine_allowlist":  [
-                                              "738efe0a9bf50a31"
+
                                           ]
                 },
     "mandatory":  {
@@ -275,7 +275,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "235ac8db9dcdc5992b9b9e53d1eb0a543661dabae5539694673d31cba9dd96cf",
-                      "value":  "EVV5Kslcj5aCemjebwblAQ_pMyhSxvWwq4nexjXygmD5Q42r_FUMLkrXyafZ466-rrA61UFgAMOvSnoDy2aGdt0XzBNjajeHti8skJAu3nnJLNCfx_BIclh8n48lkse5DMKBrbfSAy7tDZ9m0a_iBc13P1xIJlPUv2-3l5F975HCqiMjZpkQGXtTu1bEjWQleJfk6OAlU6ArCX-TByxSfVEEDkaNOsnq4PIICZGu4f_pDkDaTEyBtsvVJSoYGNJsyP4DYROTWXZSG7GQDY0EFv2ug4psVzFj-g3gTy2dx-yZpaTlUXyr6knXLjI1fjtdcx3xdOLxaEvlLir7j_bD8Q"
+                      "signed_payload_sha256":  "fd33a1ce57e3c34a517264026ed807717ebd99d391f80634d25c85e3cac57f6f",
+                      "value":  "r0ArsoilVJ1wo2MSI4LeKZFrgC3ZXORMKubgV0m28V10FwSRhwM3tZ1KM3UbODP1a2V0HDU3Aqv9orv8bOoIR8f_q4s2Sm9kH-bDO0CQob2Cls3tC3QsDJMUUgP_dD2Lzrb7llHWAGTPIKlG2b_rD6YoNCoYu-LGjYA2p8gfBFzrwail2mjMANU5Mh8TXjo1bDCkyE55JcKonpjKcGSMMAjtBMhcwF20x98EYYhtPfBJUzLNc1winsRQyYrzF425CjInVoPs0tcutvmo9KgkU1MtvbSw65z0vUcAzJebdgOAeHRH9P2fp9xEvx_9NIg891h20GahANDv11LFR84Uiw"
                   }
 }
