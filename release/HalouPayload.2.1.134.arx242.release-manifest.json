@@ -4,10 +4,10 @@
     "channel":  "dryrun-local",
     "trust_mode":  "formal",
     "version":  "2.1.134",
-    "message":  "",
+    "message":  "修复 ZK 单端切角总高异常缩短；优化短料中切选面、角度输入和预览窗口定位；加强源截面变更校验与出图失败回滚，保留已确认切角供重试。",
     "source_commit":  "b7c4a771976514a56f456295c8bb2f14517b9ca9",
     "source_dirty":  false,
-    "built_at_utc":  "2026-09-10T05:35:41.5461772Z",
+    "built_at_utc":  "2026-09-10T06:54:05.7357326Z",
     "default_arx_tag":  "arx24",
     "arx_tags":  [
                      "arx23",
@@ -17,14 +17,14 @@
                  ],
     "production_ready":  true,
     "rollout":  {
-                    "channel":  "canary",
-                    "stable_percentage":  0,
-                    "canary_percentage":  100,
+                    "channel":  "stable",
+                    "stable_percentage":  100,
+                    "canary_percentage":  0,
                     "account_allowlist":  [
 
                                           ],
                     "machine_allowlist":  [
-                                              "738efe0a9bf50a31"
+
                                           ]
                 },
     "mandatory":  {
@@ -275,7 +275,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "7a5f8993974527fa075ddf89dff81723b948d8c6701a8335199b68101730e771",
-                      "value":  "pw4fVh_61YHqBdQCCIuMAs0oNI3HxQPAot3nw0Vf8GwFNkzzWBARJd14GQ8msDjJKauJCFkJ3jZeonDzGGxJ7Iq9J0trgve1Zq2VtLzIg1VFUMXRKk5S3TpxoS0w9onIYhRuTJNRt9E_CI9A3i88kTHs4dWpmxLSqrjY-XmkADHmw0_b2FMPDGOXXMbgpiakk1D2Go3Tx-gdXSWI_qcG5OZhJUIXv8uiHbOwAX9ixRLi1uZ8CQCMtOCGEG9ja1xDE65dhcSUUfgrHRgbPjr1j1K6FL0D-N-3LaK2Tj3exaSF7-7C1eVrDuW2jBUCgOreReFsNdS8lrP9raDu0v9prw"
+                      "signed_payload_sha256":  "576a27ac96ac08ce69a1d21d671073fb807ed1f23254200141fa001be5d4150a",
+                      "value":  "VHHWHWQmElJB5w35wTrj6_rLSG5TAPftqNZcn1sPJ9dabAYYoDt6kRgt4iQXFGaK1iHhWyYAxuLY7751BbupmL-LnJCUuYIwX1ON5zi43aawz5zW0nEcmwYrvSSIpGnr8pG4rxp0nqB5GgrAl9eIsVxAjBpLUKe-s2lCNynoCBNAP2PVHAevNLuW2Ev5K9Y0Vw7fljGRso4A-w1jhwtDY8L859Y6uv05CCLLaNaa3cpnTTZbJ6sYrlIBK2RtV6ihbWe2laGF5265lMcks-5WaM82fj4gsz0F3X413eOWMWtDY_71M8ZnCBjUdoBSjgZKdPjZh2pnmushT4JKLn7_PQ"
                   }
 }
