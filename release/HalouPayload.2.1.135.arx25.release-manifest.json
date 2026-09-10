@@ -4,10 +4,10 @@
     "channel":  "dryrun-local",
     "trust_mode":  "formal",
     "version":  "2.1.135",
-    "message":  "",
+    "message":  "修复批量联动展开完成首个子联动框选后误报原图已变更的问题；允许尺寸标注正常刷新与极小浮点误差，保留真实尺寸、公式及源几何修改保护。",
     "source_commit":  "a1f65f4fd1477a0fbbd35bf20a38e5a88fbe8c65",
     "source_dirty":  false,
-    "built_at_utc":  "2026-09-10T08:48:09.4207319Z",
+    "built_at_utc":  "2026-09-10T08:55:26.1714169Z",
     "default_arx_tag":  "arx24",
     "arx_tags":  [
                      "arx23",
@@ -17,14 +17,14 @@
                  ],
     "production_ready":  true,
     "rollout":  {
-                    "channel":  "canary",
-                    "stable_percentage":  0,
-                    "canary_percentage":  100,
+                    "channel":  "stable",
+                    "stable_percentage":  100,
+                    "canary_percentage":  0,
                     "account_allowlist":  [
 
                                           ],
                     "machine_allowlist":  [
-                                              "738efe0a9bf50a31"
+
                                           ]
                 },
     "mandatory":  {
@@ -275,7 +275,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "fe54a8968bdc04822a698152d0c5f09c27ba99a18738d33fa6afd751cc60cfd9",
-                      "value":  "MTV7wjNblOdxK3EZfjP7aJE7S1MQVCGj6OmTq9Ezn-8-Bpk9OQTAkGgKY1dCWScLwTkD1t60kr1SkiRo3EkHPVx6sO9SinQ_ctfrPgnpJaFOiO4D2IoMfMzIlskWJAfKON_QpNjxjx9RZcrGX4RP9sbppgLzODsCg-1o7FicVVn2SWfkAf-UwevlZhyHG55iMm8qfyM1q_xHcAem-UsXAJl1FQX3WM68sNauMRAU6sDkiDyD26h3UiafjKBSgJ9hjawdWmDSidBdC_cFCjPwyPOXDRGN1dJTGjga5TnlPWTj3UMalM5nVw0cgP_htr-De-fKggRszNv0M7Bqlf1C-Q"
+                      "signed_payload_sha256":  "10a2753c8aff81ad1972a46f0f42f1cc405339f45da29b66b4f6a2220de8575d",
+                      "value":  "l6DuGAeojUlnBK0uVbAykmJyaz4IjselR_EokT0hmCzhBeWwS0ENWDxG6qNV0z8xjU00mCDq0MfbsVpawmgfgPrtxWQbuzOAunLzFz9mg64J46v30hPr4Tj_NR9mhCjwj00qyjxfzBWPrbsxV_vc_QY7Wv977VVCCRiwbmtq85sMM3ue83WthlskE5yRKX1WEop7oFQQbu4A11Lf_9XKtuAMCxlHHhYKlJ5wrLXyI88Suab4r7unTlyc81IIRVhmYXNyW9joLGZY79cFJtw9oyzFg6SoiOmuK9oTvP7x7c7orZAGMyZeC0mhpahjiYAwFVlBllrRRVTpZzgYErl7MA"
                   }
 }
