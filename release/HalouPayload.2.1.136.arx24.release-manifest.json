@@ -4,10 +4,10 @@
     "channel":  "dryrun-local",
     "trust_mode":  "formal",
     "version":  "2.1.136",
-    "message":  "",
+    "message":  "改进审阅截面识别与空检料表填充兼容性；修复批量联动长度校验、子联动端点框选和嵌套块定位。沿用已发布灰度原包提升稳定版。",
     "source_commit":  "3ad996aebcbbb688ee298b4d66c7f02b4863dcce",
     "source_dirty":  false,
-    "built_at_utc":  "2026-09-10T09:45:51.1274116Z",
+    "built_at_utc":  "2026-09-11T00:49:00.7995353Z",
     "default_arx_tag":  "arx24",
     "arx_tags":  [
                      "arx23",
@@ -17,14 +17,14 @@
                  ],
     "production_ready":  true,
     "rollout":  {
-                    "channel":  "canary",
-                    "stable_percentage":  0,
-                    "canary_percentage":  100,
+                    "channel":  "stable",
+                    "stable_percentage":  100,
+                    "canary_percentage":  0,
                     "account_allowlist":  [
 
                                           ],
                     "machine_allowlist":  [
-                                              "738efe0a9bf50a31"
+
                                           ]
                 },
     "mandatory":  {
@@ -275,7 +275,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "140314f41a66044881fac23bce60731c98657801515ed3ce3915028fbbb52593",
-                      "value":  "Yd3uWnD_geeUkPPk69PDlWUiMp8J8gXuIEP82l_IQMUD-zf2DpskbI3RkW7faVFlfVnGH39jyGiOdq1xV6KIyMt3xRonW9FFwkrVR9DHOE54IoIlsUvPpnLd6iHqLm14NVVyFTWbdS-Gf2k-yQbnInnLRW-gvH9Tf5eTOHYPyEBBVJHKxs5uVmgLNqDwDoIkVFF1iyl_SISHIi8ifDyD8ZLhG2xSMyK1tXlI95UPYkxXFl6YFPuzwne9D2nMu92hhobmApjkclEMF-1mxZfIlrrweI8MhNHyk1BeUQcVOTsTg8pXNth8cYH1ng-CPudANtP0Konc8XSMNsj4XlmHDw"
+                      "signed_payload_sha256":  "4d80be21ea897deee036cbe8e4ba173a09a9b52c0f8e8a466f03e56684eefdce",
+                      "value":  "TIeqQTYrcRLcbh8WEu7v0ajIoh9hbQy3mKzFBcEA_2ojH_oOQr3gFmwTl0knIa80bx-gZqOy94j3Znq61bfIneP_sapkxGhHMV681fvohhCNHol1lydJOk6UCVOD9ZNA-5QLpkDd0fkqY90CdEtq3HnEvLki0pPjq-J2v56c8rCKV4Hj9G4j8TaaYTEEIRXOOHS7wbU-vlnp50JAkXxL5eC5j9HdI2Qb9NjffSviUo0rtbrp5gqsEp4bLQ_mo7siw1lpU7FS-E8mZIC-pc_PttjaxwVBb2EmkLVl_RCvdTtwgEBV2tSf0XtEE3nBnG1Gj3fguM6-mYlMhkcs_ZO-uA"
                   }
 }
