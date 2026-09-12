@@ -4,10 +4,10 @@
     "channel":  "dryrun-local",
     "trust_mode":  "formal",
     "version":  "2.1.137",
-    "message":  "",
+    "message":  "修复批量联动框选后原生表格重绘误报原图已变更；按表格源内容和布局复核派生显示事件，保留真实表格、公式及几何修改保护。",
     "source_commit":  "b2701401f0c62f2ff236bdf2589b34993fcf1061",
     "source_dirty":  false,
-    "built_at_utc":  "2026-09-12T06:23:43.1893883Z",
+    "built_at_utc":  "2026-09-12T06:30:01.0479759Z",
     "default_arx_tag":  "arx24",
     "arx_tags":  [
                      "arx23",
@@ -17,14 +17,14 @@
                  ],
     "production_ready":  true,
     "rollout":  {
-                    "channel":  "canary",
-                    "stable_percentage":  0,
-                    "canary_percentage":  100,
+                    "channel":  "stable",
+                    "stable_percentage":  100,
+                    "canary_percentage":  0,
                     "account_allowlist":  [
 
                                           ],
                     "machine_allowlist":  [
-                                              "738efe0a9bf50a31"
+
                                           ]
                 },
     "mandatory":  {
@@ -275,7 +275,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "b2445bbb9e1ec6746f974b7ff3928e967e0c556bbce6050a63db7f655ce2d264",
-                      "value":  "oXBC3DkaoOnoJBqHBMmtWHtbARab_qArulzVcSw4-KyYK6xbz8hautdxXAgaPHERRr4XL_ebZhhPswPZpd5N7mxUvBJkZWMdvS-yHhESOWaPlAHZwqTfVYgmKn0ZSafE1KQMrf1p48NwXXDgfLZCwBsviXwzAKDQthF7aKfrHSTe-UyJASlfj_zXOD3PMdluut-PoRUdAFhPHqn9BIncqNTnrwmHJ0xYMxvNiNoIvKNQBMMrQS0zHs225Y-dXrLCxGTiDBUVsST2YFr4FzRZ5qjoMreMnZ7x6Q1HoGK2TYr-XgjuWyfhPSAkYuHyj7jrP6DevI2czOg-rlmPRZ1-5w"
+                      "signed_payload_sha256":  "4364365871ab0e91935897301d524286f82888d2027278f704d484fbafff5083",
+                      "value":  "fDHZDHOd8tB-JF_jtkUQYduCXymvFEKmghiSn8KpjI1Bz0ZdBFT_4lcTSWwYAmTynxK5t_fwfyxrujlDStmZgTjkXyqjShxoPR3Zc-qnpfNzxe80W4Yxq-xXWwWvaVufBQANsje7Ooham27wRYVJEI14dr0oh48kPIziDaHPeIOJ1F0y-iqU6MAACoy1vwIKhRXPXFqH5-jufcMAhMnwun_ga13KrmQDRtonoVjrBieIuQRGPL2wwMoVQqGoG3jWo5xMjUVQtDh6mGloaK2Lj_fQxrQLLVZdSat655OduOK4ple5kLoX0SoXdj6H5AfsyVnJrYLwncXYU3is48s6WQ"
                   }
 }
