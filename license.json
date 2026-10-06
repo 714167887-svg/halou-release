@@ -1,25 +1,27 @@
 {
-  "_comment": "Public bootstrap only. Do not put customer accounts or plaintext passwords in this file.",
-  "_security": "Private release repo. Clients must authenticate through auth Worker before downloading payloads.",
-  "latest_version": "1.1.3",
-  "download_url": "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
-  "source_commit": "e9baefe8fab58d3f1ccdd29ab52473e45218b892",
-  "latest_payload_version": "2.1.143",
-  "payload_download_url": "https://halou-auth-cn.pages.dev/payload/HalouPayload.2.1.143.arx24.dll",
-  "payload_download_url_arx23": "https://halou-auth-cn.pages.dev/payload/HalouPayload.2.1.143.arx23.dll",
-  "payload_download_url_arx25": "https://halou-auth-cn.pages.dev/payload/HalouPayload.2.1.143.arx25.dll",
-  "payload_download_url_arx242": "https://halou-auth-cn.pages.dev/payload/HalouPayload.2.1.143.arx242.dll",
-  "release_manifest_url": "https://halou-auth-cn.pages.dev/release-manifest.json",
-  "release_manifest_sha256": "6db13db4f54f6135722c28955604bf490599082839dc89eb157ea5815a125297",
-  "auth_endpoint": "https://halou-auth-cn.pages.dev/license",
-  "auth_endpoints": [
-    "https://halou-auth-cn.pages.dev/license",
-    "https://halou-auth.halou-cad-714167887.workers.dev/license",
-    "https://halou-auth-backup.halou-cad-714167887.workers.dev/license"
-  ],
-  "release_notes": "修复物料审阅：按实际框选的一套完整物料和检料表更新，无需额外外框",
-  "default_allowed": false,
-  "kill_switch": false,
-  "kill_reason": "",
-  "accounts": {}
+    "_comment":  "Public bootstrap only. Do not put customer accounts or plaintext passwords in this file.",
+    "_security":  "Private release repo. Clients must authenticate through auth Worker before downloading payloads.",
+    "latest_version":  "1.1.3",
+    "download_url":  "https://raw.githubusercontent.com/714167887-svg/halou-release/main/release/JsqClipboardCadPlugin.dll",
+    "source_commit":  "abf1f254ce564a5afb3d8ff744ed5c26caed1ed8",
+    "latest_payload_version":  "2.1.155",
+    "payload_download_url":  "https://halou-auth-cn.pages.dev/payload/HalouPayload.2.1.155.arx24.dll",
+    "payload_download_url_arx23":  "https://halou-auth-cn.pages.dev/payload/HalouPayload.2.1.155.arx23.dll",
+    "payload_download_url_arx25":  "https://halou-auth-cn.pages.dev/payload/HalouPayload.2.1.155.arx25.dll",
+    "payload_download_url_arx242":  "https://halou-auth-cn.pages.dev/payload/HalouPayload.2.1.155.arx242.dll",
+    "release_manifest_url":  "https://halou-auth-cn.pages.dev/release-manifest.json",
+    "release_manifest_sha256":  "697d2ee6ec2ef07322a2dccda87f94a5a70c7d4e8719f9828e01cc58ae69e232",
+    "auth_endpoint":  "https://halou-auth-cn.pages.dev/license",
+    "auth_endpoints":  [
+                           "https://halou-auth-cn.pages.dev/license",
+                           "https://halou-auth.halou-cad-714167887.workers.dev/license",
+                           "https://halou-auth-backup.halou-cad-714167887.workers.dev/license"
+                       ],
+    "release_notes":  "修复长圆孔误判；端面槽口随斜端面倾斜，侧面槽口按局部覆盖范围定位并贯通三角余料",
+    "default_allowed":  false,
+    "kill_switch":  false,
+    "kill_reason":  "",
+    "accounts":  {
+
+                 }
 }
