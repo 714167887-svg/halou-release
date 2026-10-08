@@ -17,15 +17,14 @@
                  ],
     "production_ready":  true,
     "rollout":  {
-                    "channel":  "canary",
-                    "stable_percentage":  0,
-                    "canary_percentage":  100,
+                    "channel":  "stable",
+                    "stable_percentage":  100,
+                    "canary_percentage":  0,
                     "account_allowlist":  [
 
                                           ],
                     "machine_allowlist":  [
-                                              "738efe0a9bf50a31",
-                                              "39fdf8900f72f998"
+
                                           ]
                 },
     "mandatory":  {
@@ -276,7 +275,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "c1cd904b3366f9d1e30ac4eaffbf1fde255e7c62b0ff793658a70a34e726922a",
-                      "value":  "Ek0PW6O5hhJIsF0p4qXkjRyjoUcRUJ06LvT0NG8OEF30_2K90rc6s0PyDAwVgl6iq15AgaJwcItpCEFi1hf4qjEOejgVaqClyIA4E50IkSl2KGnkKeW-xPyhkG-s5VSf9NNPoDhfyQAiuELzs2heNndud4iiiFWvn2XGGcaaDVP8f2QahGlD_WAFp2cwjj0vW59ICbTkAc-Swui6RY8EAR5AnRdo0NeyYq9o7Vh7NWsDz6I4NUCAHOkCIX-6UR5XqaJpo_-oqkH6_0m2pzJ5nK8DUA0XLaHa4x6NyL9ApU5iIhZ-08owk9kHSpDc4Ea_DIZYlT5uk7sZOXb3acWEfg"
+                      "signed_payload_sha256":  "b0511dbefff7cfd08661c708548dbacb9bea27a88251ffdca434538d0fa3a2e9",
+                      "value":  "GrvGv8qvxA6-tDpYLn_Wva47P4LfftccfJMnnia1LX8MbwzFm9IiTgB64DnZLbD7G8zLw9PgIuD-LVlkxV5nYjLsknWP1NcTadfQNZnnsvhFpkfs0opHkqv-_Mv9COKjLZInxj75jv811bCt5Bl5fRpdVc3D8CkzOu85TUPJBXFoD3-nvygT3S4QM69x8F6g7mtyyRITWZnTRAWM79pxTf9_h7nGU6CuovIWVAP0Rgd59xBZCz_vsAi5gXXaqauNbUmzau-A9XaYKEIky8W9yTYMGiWSCENSH1bxj2pNmQmP76igKOAVWRoo1i3umOLfeDUQVvOgenTZ42iQZAmwRg"
                   }
 }
