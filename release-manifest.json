@@ -3,11 +3,11 @@
     "pipeline":  "halou-suite-two-phase",
     "channel":  "dryrun-local",
     "trust_mode":  "formal",
-    "version":  "2.1.184",
-    "message":  "收紧 CAD 版本与插件包匹配，拒绝未知 API 和错误包；导入失败及支持报告自动记录 CAD、运行时、系统和字体环境。",
-    "source_commit":  "5c91c50bb72857517941af3ddf713660c77f9dc8",
+    "version":  "2.1.186",
+    "message":  "优化长圆孔开缺响应，修复重复顶点导致孔形误判，增加ZK失败原因与处理提示，完善登录授权及超时文案。",
+    "source_commit":  "d8197aa8c169d432c691de8bab24fecd564b019c",
     "source_dirty":  false,
-    "built_at_utc":  "2026-10-19T03:34:38.0685934Z",
+    "built_at_utc":  "2026-10-19T08:29:46.0408457Z",
     "default_arx_tag":  "arx24",
     "arx_tags":  [
                      "arx23",
@@ -34,7 +34,7 @@
                   },
     "rollback":  {
                      "lkg_allowed":  true,
-                     "fallback_version":  "2.1.184",
+                     "fallback_version":  "2.1.186",
                      "deny_downgrade_below":  ""
                  },
     "build_provenance":  {
@@ -59,21 +59,22 @@
                                             ]
                          },
     "validation_policy":  {
-                              "schema_version":  1,
+                              "schema_version":  2,
+                              "validation_plan_sha256":  "573e985c3b2b09d4eb51815efe99fef684a095064c8fc14b9466d6cb9591b254",
                               "profile":  "Personal",
                               "release_lane":  "Security",
-                              "full_repository_required":  true
+                              "full_repository_required":  false
                           },
     "release_lane":  {
                          "schema_version":  1,
                          "evidence_present":  true,
                          "lane":  "Security",
                          "severity":  3,
-                         "base_commit":  "29e551320fbb9918b98f6b36ab086956b9db21da",
-                         "source_commit":  "5c91c50bb72857517941af3ddf713660c77f9dc8",
-                         "changed_path_count":  235,
-                         "lane_report_sha256":  "13070e2fe91ee6e9b454d1f51d0ae15dc95ee5c0e01789625d078b98068147ce",
-                         "gate_report_sha256":  "865ee658f8401064b974b1487b5180f184706fd161fdb8a551c3c051ee10ae7d",
+                         "base_commit":  "71b9a2db00843b85f084ef18e47c394ea81be098",
+                         "source_commit":  "d8197aa8c169d432c691de8bab24fecd564b019c",
+                         "changed_path_count":  42,
+                         "lane_report_sha256":  "7dd1a3c351a8371fa9034ba01f38da7eb204d767c875544a5d596f70186c8821",
+                         "gate_report_sha256":  "d9478eb3de50342fb3167ab10b64381b42c44b9789f67a6a24c38a01ace6ff28",
                          "gate_phase":  "CandidateReady",
                          "gate_status":  "passed",
                          "gate_success":  true,
@@ -84,13 +85,13 @@
                      },
     "repository_validation":  {
                                   "schema_version":  1,
-                                  "evidence_present":  true,
-                                  "result":  "passed",
-                                  "source_commit":  "5c91c50bb72857517941af3ddf713660c77f9dc8",
-                                  "release_repository_commit":  "0b21c1680ad6ef149051c8a7714819a373ff001d",
-                                  "command":  "tests/run-tests.ps1",
-                                  "completed_at_utc":  "2026-10-19T03:33:33.7649502Z",
-                                  "evidence_sha256":  "79479e3ca0c24982818bff3ee2441534e63660ef1404dbe0997f1060758e9bf9"
+                                  "evidence_present":  false,
+                                  "result":  "",
+                                  "source_commit":  "",
+                                  "release_repository_commit":  "",
+                                  "command":  "",
+                                  "completed_at_utc":  "",
+                                  "evidence_sha256":  ""
                               },
     "trusted_signing":  {
                             "current_key_id":  "formal-release-manifest-current-rsa2048-20260716",
@@ -110,7 +111,7 @@
                           "relative_path":  "release/HalouContract.arx23.dll",
                           "download_url":  "",
                           "size":  9728,
-                          "sha256":  "9b9c5308d450b8b5b0a60341acfb00b598f76943bd4a015392743ed7ca1c5848",
+                          "sha256":  "ad7fe834647839bb5723c0de59cd1a0180ad2d967c807307f19e08d767395934",
                           "min_host_api":  0,
                           "protection_profile":  "none"
                       },
@@ -121,18 +122,18 @@
                           "relative_path":  "release/HalouHost.arx23.dll",
                           "download_url":  "",
                           "size":  153600,
-                          "sha256":  "4e10eeca49374f545a119df0e60f77ce02b0251598c43e1a5a4df0e418e027ef",
+                          "sha256":  "2d65dfeccec1f78c83d0fccdc701c486a6b81c97eacbf6b7cfb57df91577688f",
                           "min_host_api":  0,
                           "protection_profile":  "none"
                       },
                       {
                           "role":  "payload",
                           "arx_tag":  "arx23",
-                          "file_name":  "HalouPayload.2.1.184.arx23.dll",
-                          "relative_path":  "release/HalouPayload.2.1.184.arx23.dll",
-                          "download_url":  "https://halou-auth-cn.pages.dev/payload/HalouPayload.2.1.184.arx23.dll",
-                          "size":  1809408,
-                          "sha256":  "0ec78212541cbd06db4f9e58b633d2ccab9f7ee751803b1e287778e4ff92f355",
+                          "file_name":  "HalouPayload.2.1.186.arx23.dll",
+                          "relative_path":  "release/HalouPayload.2.1.186.arx23.dll",
+                          "download_url":  "https://halou-auth-cn.pages.dev/payload/HalouPayload.2.1.186.arx23.dll",
+                          "size":  1826816,
+                          "sha256":  "7568c8787010b3eb4f5b6fc728b5207d7e58b80a4f78bd2853a3916bb07b496a",
                           "min_host_api":  2,
                           "protection_profile":  "obfuscar-free-baseline"
                       },
@@ -143,7 +144,7 @@
                           "relative_path":  "release/HalouContract.arx24.dll",
                           "download_url":  "",
                           "size":  9728,
-                          "sha256":  "5ebae4edcfd1248df1c370b5d2203f390688d3c5fac6e1db4f64cd59a35aa912",
+                          "sha256":  "f00bd456af8a3d9b6c4948d8da44e7c6545c0735ad27cfd571c89f563349c5d7",
                           "min_host_api":  0,
                           "protection_profile":  "none"
                       },
@@ -154,18 +155,18 @@
                           "relative_path":  "release/HalouHost.arx24.dll",
                           "download_url":  "",
                           "size":  153600,
-                          "sha256":  "8b8c978be6f85c372333e829a1b2b8390d507f18b848c4ac1a91467ae5e0c927",
+                          "sha256":  "1d21c8659606d855041e2a9ab566ee38535427b60b3f2ec2b8e13eae8de1f122",
                           "min_host_api":  0,
                           "protection_profile":  "none"
                       },
                       {
                           "role":  "payload",
                           "arx_tag":  "arx24",
-                          "file_name":  "HalouPayload.2.1.184.arx24.dll",
-                          "relative_path":  "release/HalouPayload.2.1.184.arx24.dll",
-                          "download_url":  "https://halou-auth-cn.pages.dev/payload/HalouPayload.2.1.184.arx24.dll",
-                          "size":  1809408,
-                          "sha256":  "1425e1a6aa79e8abadee42a56346b07bf43e114facb16e2de08bd01826919fed",
+                          "file_name":  "HalouPayload.2.1.186.arx24.dll",
+                          "relative_path":  "release/HalouPayload.2.1.186.arx24.dll",
+                          "download_url":  "https://halou-auth-cn.pages.dev/payload/HalouPayload.2.1.186.arx24.dll",
+                          "size":  1826816,
+                          "sha256":  "f5bd84d1e24bb9e1e82ec6eb0bf0ce7fe2522068061261ad33f7ead2e259ac14",
                           "min_host_api":  2,
                           "protection_profile":  "obfuscar-free-baseline"
                       },
@@ -176,7 +177,7 @@
                           "relative_path":  "release/HalouContract.arx242.dll",
                           "download_url":  "",
                           "size":  9728,
-                          "sha256":  "4ec4f0dcb2059f2f3dce4e1ecc7fb136145e92ea231f4f46a142bbc1aee56989",
+                          "sha256":  "7f6c4a926bb4d6aff7873ce4fc1c01b07ccdcb579e1b4d8a0fbe6f5bb22aa41a",
                           "min_host_api":  0,
                           "protection_profile":  "none"
                       },
@@ -187,18 +188,18 @@
                           "relative_path":  "release/HalouHost.arx242.dll",
                           "download_url":  "",
                           "size":  153600,
-                          "sha256":  "48801ce4991129acf620d8d004f6b670e61efc5209ce539739d25b81cc5a706c",
+                          "sha256":  "53733bb9916484686553fc4809bb6dc4ab2bc26f32e04f27497abcc79ba72446",
                           "min_host_api":  0,
                           "protection_profile":  "none"
                       },
                       {
                           "role":  "payload",
                           "arx_tag":  "arx242",
-                          "file_name":  "HalouPayload.2.1.184.arx242.dll",
-                          "relative_path":  "release/HalouPayload.2.1.184.arx242.dll",
-                          "download_url":  "https://halou-auth-cn.pages.dev/payload/HalouPayload.2.1.184.arx242.dll",
-                          "size":  1809408,
-                          "sha256":  "2e99a1deb780023ad67d9a6bf8238a2aa23c4d8f62a736caa0ef942b4cc48ca3",
+                          "file_name":  "HalouPayload.2.1.186.arx242.dll",
+                          "relative_path":  "release/HalouPayload.2.1.186.arx242.dll",
+                          "download_url":  "https://halou-auth-cn.pages.dev/payload/HalouPayload.2.1.186.arx242.dll",
+                          "size":  1826816,
+                          "sha256":  "ea94122cdd46514d8f2ded651bfc439efe8f5f03fcd881ba0fafac29714c7ded",
                           "min_host_api":  2,
                           "protection_profile":  "obfuscar-free-baseline"
                       },
@@ -209,7 +210,7 @@
                           "relative_path":  "release/HalouContract.arx25.dll",
                           "download_url":  "",
                           "size":  9216,
-                          "sha256":  "409adc8398aee4ba9f7ac406598ecddef182628018d74b3e3b66a217ca239d83",
+                          "sha256":  "9c9cae58b951e07f046b4169ad8c5a3d6e3cde7dcea1010d5b5f01af92f96b49",
                           "min_host_api":  0,
                           "protection_profile":  "none"
                       },
@@ -220,18 +221,18 @@
                           "relative_path":  "release/HalouHost.arx25.dll",
                           "download_url":  "",
                           "size":  152064,
-                          "sha256":  "9b49f19f956dcf123804f45fe66ecc9db96f4aaa4cf2c325fb075541c2cc47da",
+                          "sha256":  "f197a6ccef822312ebe5278fc9af3c65effef8c6ef50296020a932c1f3f9abf3",
                           "min_host_api":  0,
                           "protection_profile":  "none"
                       },
                       {
                           "role":  "payload",
                           "arx_tag":  "arx25",
-                          "file_name":  "HalouPayload.2.1.184.arx25.dll",
-                          "relative_path":  "release/HalouPayload.2.1.184.arx25.dll",
-                          "download_url":  "https://halou-auth-cn.pages.dev/payload/HalouPayload.2.1.184.arx25.dll",
-                          "size":  1670144,
-                          "sha256":  "876e050c974f95970e93df4f3e4e8046d1c0ec2acc81a3bb0819b756ef723267",
+                          "file_name":  "HalouPayload.2.1.186.arx25.dll",
+                          "relative_path":  "release/HalouPayload.2.1.186.arx25.dll",
+                          "download_url":  "https://halou-auth-cn.pages.dev/payload/HalouPayload.2.1.186.arx25.dll",
+                          "size":  1686528,
+                          "sha256":  "e8b6b4c0d2dd22d2d56e30e826c194c232462004b26d7ed8020dc8ecee99ddbf",
                           "min_host_api":  2,
                           "protection_profile":  "obfuscar-free-baseline"
                       },
@@ -242,7 +243,7 @@
                           "relative_path":  "release/HalouContract.dll",
                           "download_url":  "",
                           "size":  9728,
-                          "sha256":  "5ebae4edcfd1248df1c370b5d2203f390688d3c5fac6e1db4f64cd59a35aa912",
+                          "sha256":  "f00bd456af8a3d9b6c4948d8da44e7c6545c0735ad27cfd571c89f563349c5d7",
                           "min_host_api":  0,
                           "protection_profile":  "none"
                       },
@@ -263,8 +264,8 @@
                           "file_name":  "HalouSetup.exe",
                           "relative_path":  "release/HalouSetup.exe",
                           "download_url":  "",
-                          "size":  7887360,
-                          "sha256":  "5687afb6afa0d48efa5d34855cb2318c71e2e8a03b619764380f15185365789b",
+                          "size":  7954944,
+                          "sha256":  "52563292dacba20024a12c8b10203f530dd0254c501a1bac522ae32fd5dc5864",
                           "min_host_api":  0,
                           "protection_profile":  "none"
                       }
@@ -275,7 +276,7 @@
                       "key_scope":  "formal",
                       "canonicalization":  "halou-json-c14n-v1",
                       "public_key_fingerprint_sha256":  "566aebe392508da22642f838392a3ce820f7339234043a9447a94478f5baae25",
-                      "signed_payload_sha256":  "b82aab27baf7d6658a2da3b827657ed2d066e55c710cea4dd04648ea381a4236",
-                      "value":  "UgCyt_KN9Tza2r2LhiddpNndPOYb8lNTA0meN4oC5m9d0HGHz6OsBHTx5A1ec23bizjVWsAiZeDZhoo93bk245QfiFN_oZNyt2nLhoKnkcjGTPMS_sR9mrbMPSgX3YrRt9p6CfItayYrbFzvuAt3qGvQTc01O4NiOPpovwAvEQD-7qzA5Cpz82nmYvtwhAHlfqHr8k5A1fWwKR_5jcwxrNhPpMiM9vSmjiVIOWow0gH2Ja1EMbjEsQuhNvCc-1pva87ZazoZFmg-wMZ_t3nOUhN-BZJWhQV6YZWSTDomP8DhoLXhluPYpLlpPYP4DAq4yjesQLlV2sIBTvsKLnFq8w"
+                      "signed_payload_sha256":  "33b69d44ab0be4bb7887170cbb99c39f2b595471ee51f1534316ac7d0c495145",
+                      "value":  "NDkOYem67DdOUUastT1mTEwrTjLWLZ432imez_d7-rgWe5W0sZZInzmJYdoy-nVT1CuLRehHe6IMoiZJLZjm71N38MZp3DkMXmmpqDKW3gopE7rdsvwBGjRSDdxd2FqwOpu4QtcQ4dXoaiVsoxNfXFwII19ZLuxh8ZJUYdYcPlDyTzMA1IvPNV_ng2vSvoiKTPUMC4hMZJQlX12tVKCVkPMJkzpfsc68mt12VRRL5gd6nNMisj88Rkn62dNLKvPmBjPbpQJwAswvvi0EBiohdaV3oUEGersytIyrR8ArWR0Jmle57irCWaVLT2HyEdj6gXYNfioPhDK6VW62DdTOWw"
                   }
 }
